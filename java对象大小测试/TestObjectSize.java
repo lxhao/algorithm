@@ -8,7 +8,12 @@ import java.util.*;
 public class TestObjectSize {
     private Integer a;
     public static void main(String args[]) {
-        System.out.println(SizeOfObject.sizeOf(new TestObjectSize()));
+        System.out.println(SizeOfObject.sizeOf(new A()));
     }
 }
+
+class A {
+    int a;
+}
+
 
