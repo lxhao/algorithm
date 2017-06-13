@@ -6,9 +6,10 @@ import java.util.*;
  */
 
 public class TestObjectSize {
-    private Integer a;
+    //obj 12bit
+    private static int[] b = new int[2];//8bit
     public static void main(String args[]) {
-        System.out.println(SizeOfObject.sizeOf(new A()));
+        System.out.println(SizeOfObject.sizeOf(b));
     }
 }
 
