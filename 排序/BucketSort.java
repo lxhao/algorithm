@@ -4,7 +4,7 @@ public class BucketSort {
     //随机测试次数
     private static final int TEST_TIMES = 100;
     //测试数据规模
-    private static final int NUMBER_SIZE = 1000;
+    private static final int NUMBER_SIZE = 10;
 
     public static void main(String args[]) {
         for (int j = 0; j < TEST_TIMES; j++) {
@@ -13,9 +13,9 @@ public class BucketSort {
             for (int i = 0; i < NUMBER_SIZE; i++) {
                 numbers.add(rnd.nextInt(NUMBER_SIZE));
             }
-            System.out.println(numbers);
+            // System.out.println(numbers);
             sort(numbers);
-            System.out.println(numbers);
+            // System.out.println(numbers);
             //验证排序结果
             int i;
             for(i = 1; i < numbers.size(); i++) {
@@ -44,7 +44,7 @@ public class BucketSort {
         }
 
         //桶大小
-        int bucketSize = (max - min) / numbers.size() + 1;
+        int bucketSize = (int)Math.ceil((max - min) / numbers.size());
         //桶
         List<List<Integer>> buckets = new ArrayList<>();
         for (int i = 0; i < bucketSize; i++) {
