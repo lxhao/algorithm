@@ -1,3 +1,5 @@
 *.class
 *.out
+*.tar
+*.tar.gz
 *.o
