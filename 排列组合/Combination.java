@@ -33,7 +33,7 @@ public class Combination {
 
     public static void main(String[] args) {
         Combination c = new Combination();
-        c.combination(new Integer[] {1, 2, 3, 4, 5, 6}, 3);
+        c.combination(new Integer[] {1, 2, 3, 4}, 2);
     }
 
 }

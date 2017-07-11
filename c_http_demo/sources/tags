@@ -1,0 +1,287 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/akumade\/Desktop\/pserv-3.4\/missing --run aclocal-1.9$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ADDRESS_LEN	main.h	121;"	d
+AMDEP_FALSE	Makefile	/^AMDEP_FALSE = #$/;"	m
+AMDEP_TRUE	Makefile	/^AMDEP_TRUE = $/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/akumade\/Desktop\/pserv-3.4\/missing --run tar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/akumade\/Desktop\/pserv-3.4\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/akumade\/Desktop\/pserv-3.4\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/akumade\/Desktop\/pserv-3.4\/missing --run automake-1.9$/;"	m
+AUTO_INDEX	main.h	27;"	d
+AWK	Makefile	/^AWK = mawk$/;"	m
+BACK_LOG	main.h	55;"	d
+BUFFER_OVERFLOW	main.h	72;"	d
+BUFFER_SIZE	main.h	113;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CGI_MATCH_STRING	main.h	35;"	d
+CGI_ONLY_HEADER	main.h	65;"	d
+CGI_VERSION	main.h	36;"	d
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_FILE_NAME	main.h	32;"	d
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DBGPRINTF	main.h	170;"	d
+DBGPRINTF	main.h	172;"	d
+DEFAULT_CGI_ROOT	main.h	51;"	d
+DEFAULT_CONFIG_LOCATION	main.h	40;"	d
+DEFAULT_DOCS_LOCATION	main.h	45;"	d
+DEFAULT_FILE_NAME	main.h	46;"	d
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(srcdir) -I.$/;"	m
+DEFAULT_LOG_FILE	main.h	49;"	d
+DEFAULT_MAX_CHILDREN	main.h	44;"	d
+DEFAULT_MIME_FILE	main.h	50;"	d
+DEFAULT_PORT	main.h	43;"	d
+DEFAULT_SEC_TO	main.h	47;"	d
+DEFAULT_SERVER_NAME	main.h	52;"	d
+DEFAULT_USEC_TO	main.h	48;"	d
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(pserv_SOURCES)$/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = grep -E$/;"	m
+ENABLE_CGI	config.h	5;"	d
+ENABLE_CGI	handlers.c	27;"	d	file:
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXTRA_DIST	Makefile	/^EXTRA_DIST = missing.c$/;"	m
+FORBIDDEN	main.h	71;"	d
+FORKING_REQUEST	config.h	8;"	d
+FULL_HEADER	main.h	64;"	d
+HAVE_ARPA_INET_H	config.h	11;"	d
+HAVE_DIRENT_H	config.h	15;"	d
+HAVE_DUP2	config.h	18;"	d
+HAVE_FORK	config.h	21;"	d
+HAVE_INET_NTOA	config.h	24;"	d
+HAVE_INTTYPES_H	config.h	27;"	d
+HAVE_MEMMOVE	config.h	30;"	d
+HAVE_MEMORY_H	config.h	33;"	d
+HAVE_NETDB_H	config.h	39;"	d
+HAVE_NETINET_IN_H	config.h	42;"	d
+HAVE_SOCKET	config.h	45;"	d
+HAVE_STDINT_H	config.h	52;"	d
+HAVE_STDLIB_H	config.h	55;"	d
+HAVE_STRFTIME	config.h	58;"	d
+HAVE_STRINGS_H	config.h	61;"	d
+HAVE_STRING_H	config.h	64;"	d
+HAVE_STRSTR	config.h	67;"	d
+HAVE_SYS_SOCKET_H	config.h	78;"	d
+HAVE_SYS_STAT_H	config.h	81;"	d
+HAVE_SYS_TIME_H	config.h	84;"	d
+HAVE_SYS_TYPES_H	config.h	87;"	d
+HAVE_SYS_WAIT_H	config.h	90;"	d
+HAVE_UNISTD_H	config.h	93;"	d
+HAVE_VFORK	config.h	96;"	d
+HAVE_WORKING_FORK	config.h	102;"	d
+HAVE_WORKING_VFORK	config.h	105;"	d
+INPUT_LINE_TOO_LONG	main.h	68;"	d
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LENGTH_REQUIRED	main.h	73;"	d
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LINK	Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
+LOG_BAD_EXTENSION	log.h	21;"	d
+LOG_CGI_FAILURE	log.h	20;"	d
+LOG_CGI_SUCCESS	log.h	19;"	d
+LOG_FILE_NOT_FOUND	log.h	17;"	d
+LOG_FORBIDDEN	log.h	18;"	d
+LOG_GENERIC_ERROR	log.h	22;"	d
+LOG_GET_SUCCESS	log.h	15;"	d
+LOG_HEAD_SUCCESS	log.h	16;"	d
+LOG_INPUT_LINE_TOO_LONG	log.h	23;"	d
+LOG_LENGTH_REQUIRED	log.h	24;"	d
+LOG_POST_BUFFER_OVERFLOW	log.h	25;"	d
+LSTAT_FOLLOWS_SLASHED_SYMLINK	config.h	109;"	d
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAINT	Makefile	/^MAINT = #$/;"	m
+MAINTAINER_MODE_FALSE	Makefile	/^MAINTAINER_MODE_FALSE = $/;"	m
+MAINTAINER_MODE_TRUE	Makefile	/^MAINTAINER_MODE_TRUE = #$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/akumade\/Desktop\/pserv-3.4\/missing --run makeinfo$/;"	m
+MAX_ARGV_LEN	main.h	85;"	d
+MAX_EMPTY_READS_COUNTER	main.h	82;"	d
+MAX_ENVP_LEN	main.h	86;"	d
+MAX_EXTENSION_LEN	main.h	115;"	d
+MAX_INDEX_NAME_LEN	main.h	112;"	d
+MAX_MIMETYPE_LEN	main.h	116;"	d
+MAX_PATH_LEN	main.h	110;"	d
+MAX_QUERY_STRING_LEN	main.h	125;"	d
+MAX_REQUEST_LINES	main.h	118;"	d
+MAX_STUCK_COUNTER	main.h	81;"	d
+METHOD_LEN	main.h	122;"	d
+MIME_TYPE_DEFAULT	main.h	37;"	d
+NO	main.h	61;"	d
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NOT_FOUND	main.h	70;"	d
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+ON_THE_FLY_CONVERSION	main.h	25;"	d
+OUT_SOCK_BUFF_SIZE	main.h	78;"	d
+PACKAGE	Makefile	/^PACKAGE = pserv$/;"	m
+PACKAGE	config.h	112;"	d
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = rmottola@users.sf.net$/;"	m
+PACKAGE_BUGREPORT	config.h	115;"	d
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = pserv$/;"	m
+PACKAGE_NAME	config.h	118;"	d
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = pserv 3.4$/;"	m
+PACKAGE_STRING	config.h	121;"	d
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = pserv$/;"	m
+PACKAGE_TARNAME	config.h	124;"	d
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 3.4$/;"	m
+PACKAGE_VERSION	config.h	127;"	d
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PIPE_READ_BUF	main.h	77;"	d
+POST_BUFFER_OVERFLOW	main.h	74;"	d
+POST_BUFFER_SIZE	main.h	114;"	d
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRINTF_DEBUG	main.h	24;"	d
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PROTOCOL_LEN	main.h	123;"	d
+Para_CmdParse	main.c	/^int Para_CmdParse(int* serverPort, int* maxChildren, int argc, char* argv[])$/;"	f
+READ	handlers.h	14;"	d
+RETSIGTYPE	config.h	130;"	d
+SERVER_SOFTWARE_STR	main.h	33;"	d
+SERVER_VERSION_STR	main.h	34;"	d
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOCKADDR_REUSE	main.h	28;"	d
+SOURCES	Makefile	/^SOURCES = $(pserv_SOURCES)$/;"	m
+STDC_HEADERS	config.h	133;"	d
+STRIP	Makefile	/^STRIP = $/;"	m
+TIME_WITH_SYS_TIME	config.h	136;"	d
+UNHANDLED_METHOD	main.h	69;"	d
+USER_AGENT_LEN	main.h	124;"	d
+VERSION	Makefile	/^VERSION = 3.4$/;"	m
+VERSION	config.h	142;"	d
+WRITE	handlers.h	15;"	d
+YES	main.h	60;"	d
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_STRIP	Makefile	/^ac_ct_STRIP = $/;"	m
+address	main.h	/^    char     address[ADDRESS_LEN+1];$/;"	m	struct:request
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/acinclude.m4 \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__fastdepCC_FALSE	Makefile	/^am__fastdepCC_FALSE = #$/;"	m
+am__fastdepCC_TRUE	Makefile	/^am__fastdepCC_TRUE = $/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am_pserv_OBJECTS	Makefile	/^am_pserv_OBJECTS = main.$(OBJEXT) log.$(OBJEXT) handlers.$(OBJEXT) \\$/;"	m
+analyzeExtension	mime.c	/^int analyzeExtension(mimeType, addr)$/;"	f
+analyzeRequest	main.c	/^int analyzeRequest (int sock, char req[], struct request* reqStruct)$/;"	f
+binPROGRAMS_INSTALL	Makefile	/^binPROGRAMS_INSTALL = $(INSTALL_PROGRAM)$/;"	m
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = pserv$(EXEEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+brokenPipe	main.c	/^RETSIGTYPE brokenPipe()$/;"	f
+build_alias	Makefile	/^build_alias = $/;"	m
+cgiHandler	handlers.c	/^int cgiHandler(int port, int sock, struct request req, char* postStr)$/;"	f
+cgiRoot	main.c	/^char	    	cgiRoot[MAX_PATH_LEN+1]; \/* root for CGI scripts exec *\/$/;"	v
+contentLength	main.h	/^    long int contentLength;$/;"	m	struct:request
+convertPercents	main.c	/^int convertPercents(char s[], int l)$/;"	f
+datadir	Makefile	/^datadir = ${prefix}\/share$/;"	m
+defaultFileName	main.c	/^char	    	defaultFileName[MAX_PATH_LEN+1];$/;"	v
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+documentAddress	main.h	/^    char     documentAddress[MAX_PATH_LEN+1];$/;"	m	struct:request
+dumpFile	handlers.c	/^int dumpFile(int sock, char filePath[], char mimeType[], struct request req)$/;"	f
+dumpHeader	handlers.c	/^int dumpHeader(int sock, char filePath[], char mimeType[], struct request req)$/;"	f
+error	main.c	/^int 	    	error;$/;"	v
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+ext	main.h	/^    char ext[MAX_EXTENSION_LEN+1];$/;"	m	struct:__anon1
+generateIndex	handlers.c	/^int generateIndex(int sock, char dirPath[], char mimeType[], struct request req)$/;"	f
+generateMimeHeader	mime.c	/^int generateMimeHeader(sock, statusCode, contentType, statistics, sentProtocol, kind)$/;"	f
+handleMethod	main.c	/^int handleMethod (int port, int sock, struct request req)$/;"	f
+homePath	main.c	/^char	    	homePath[MAX_PATH_LEN+1];$/;"	v
+host_alias	Makefile	/^host_alias = $/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${prefix}\/info$/;"	m
+initMimeTypes	mime.c	/^int initMimeTypes()$/;"	f
+initParameters	main.c	/^int initParameters (int* serverPort, int* maxChildren, int argc,char* argv[])$/;"	f
+install_sh	Makefile	/^install_sh = \/home\/akumade\/Desktop\/pserv-3.4\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+intCatch	main.c	/^RETSIGTYPE intCatch ()$/;"	f
+keepAlive	main.h	/^    int      keepAlive;$/;"	m	struct:request
+lf	main.c	/^FILE	    	*lf;         \/* log file *\/$/;"	v
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+logFileClose	log.c	/^int logFileClose()$/;"	f
+logFileName	main.c	/^char	    	logFileName[MAX_PATH_LEN+1];$/;"	v
+logFileOpen	log.c	/^int logFileOpen()$/;"	f
+logWriter	log.c	/^int logWriter(eventType, docPath, bytes, req, code)$/;"	f
+lowerCase	mime.c	/^int lowerCase(str)$/;"	f
+main	main.c	/^int main (int argc,char* argv[])$/;"	f
+mandir	Makefile	/^mandir = ${prefix}\/man$/;"	m
+memmove	missing.c	/^memmove (dst, src, len)$/;"	f
+method	main.h	/^    char     method[METHOD_LEN+1];$/;"	m	struct:request
+mimeArray	main.c	/^mimeData    	*mimeArray;  \/* here we will hold all MIME data, inited once, never to be changed  *\/$/;"	v
+mimeData	main.h	/^} mimeData;$/;"	t	typeref:struct:__anon1
+mimeEntries	main.c	/^int 	    	mimeEntries; \/* the number of known mimetypes present in *mimeArray and loaded at startup *\/$/;"	v
+mimeTypesFileName	main.c	/^char	    	mimeTypesFileName[MAX_PATH_LEN+1];$/;"	v
+mkdir_p	Makefile	/^mkdir_p = mkdir -p --$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+newSocket	main.c	/^int 	    	theSocket, newSocket;$/;"	v
+newSocketReady	main.c	/^int 	    	newSocketReady;$/;"	v
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/pserv$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/pserv$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/pserv$/;"	m
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+protocolVersion	main.h	/^    char     protocolVersion[PROTOCOL_LEN+1];$/;"	m	struct:request
+pserv_LDADD	Makefile	/^pserv_LDADD = $(LDADD)$/;"	m
+pserv_OBJECTS	Makefile	/^pserv_OBJECTS = $(am_pserv_OBJECTS)$/;"	m
+pserv_SOURCES	Makefile	/^pserv_SOURCES = main.h main.c \\$/;"	m
+queryString	main.h	/^    char     queryString[MAX_QUERY_STRING_LEN+1];$/;"	m	struct:request
+request	main.h	/^struct request$/;"	s
+required_argument	main.c	41;"	d	file:
+rest	main.h	/^    char     rest[BUFFER_SIZE+1];$/;"	m	struct:request
+sayError	main.c	/^int sayError(int sock, int err, char* errorFilePath, struct request req)$/;"	f
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sendChunk	handlers.c	/^int sendChunk(int sock, char* buff, int len)$/;"	f
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+signal_MACRO	main.h	166;"	d
+sockLenType	main.h	151;"	d
+sockLenType	main.h	154;"	d
+sockLenType	main.h	156;"	d
+sockStream	main.c	/^FILE            *sockStream; \/* stream version of the new socket *\/$/;"	v
+sockTimeVal	main.c	/^struct timeval	sockTimeVal;$/;"	v	typeref:struct:timeval
+srcdir	Makefile	/^srcdir = .$/;"	m
+subdir	Makefile	/^subdir = sources$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+theSocket	main.c	/^int 	    	theSocket, newSocket;$/;"	v
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+type	main.h	/^    char type[MAX_MIMETYPE_LEN+1];$/;"	m	struct:__anon1
+userAgent	main.h	/^    char     userAgent[USER_AGENT_LEN+1];$/;"	m	struct:request

@@ -1,0 +1,215 @@
+-- what's new in 3.4 --
+* new fgetc() based header read
++ fixed ./ bug in directory enforcment count (thanks to Raphael Rigo)
++ fixed a potential overflow with cgi-bin parameters
++ some small defines to remove warnings for socket len type of accept()
++ cleaned up distribution, include automatically missing.c with a replacement function.
+
+-- what's new in 3.3 --
++ some code clean-up! the binary is smaller now (rationalized some security checks)
+* transitioned from "environ" to getenv() for PATH search
++ some security bug fixes:
+  - escaping from the cgi-bin root is no longer possible using multiple /
+  - some buffer overflows are corrected (line 130, handlers.c)
+  - check and forbid the serving of cgi scripts as plain files
+  (security bugs found by the RedTeam:
+  http://tsyklon.informatik.rwth-aachen.de/redteam/ )
+
+-- what's new in 3.2 --
++ Long awaited autotools configuration system introduced!
+  Many thanks to Sandro Bonazzola, Michael Koch and Tom Tromey for the help.
++ CGI option is now configurable, for improved modularity (and to be able to build a server completely without fork())
+
+-- what's new in 3.1 --
++ code clean up
++ improved send function on the socket, using sendChunk() that checks for incomplete
+  buffer send. Used that code in all handlers.
+
+-- what's new in 3.0 --
++ Pico Server compiles on IRIX4.0 with the SGI Mips compiler !
++ socket length has now a #define since some older platforms don't have size_t at all
++ signal types are configurable now and singals are set using a configurable macro too
+
+-- what's new in 3.0 beta 4 --
+(this version was only in CVS and release is 3.0 directly)
++ some clean-up in the code
++ fixed a compilation problem on Jaguar 10.2.8 related to headers.
++ fixed a long standing bug where the content-length of the auto-generated directory-index files was smaller than the actual size causing truncaiton with many browsers.
++ worked around a strftime() non portability in mime.c for time stamp in GMT
++ fixed a type incompatibility with most platforms by using size_t instead of int for socket length (3rd parameter of accept())
++ added missing.c with quick implementation of functions which some platforms lack
+
+-- what's new in 3.0 beta 3 --
++ Buffer of POST data is now serparately configurable thorugh POST_BUFFER_SIZE
++ content-length of post data is now checked, error message are issued if appropriate and the server will only read the specified amount of data
++ some parsing code of the header tokens is changed
++ fixed an out-of-boundaries array access that got noticed only on AIX
++ cleaned up the distribution source tree
++ solved a security bug with the root level enforcement
++ added an option to reuse the address of a socket (good for a quick relaunch)
+
+-- what's new in 3.0 beta 2 --
++ fixed a bug in directory indexing (directories are now correctly distinguisehd from files) and file size is indicated
++ the maximum length of the path in your sistem is now set to MAXNAMLEN, which should be available at least on POSIX systems
++ SERVER_PROTOCOL, REMOTE_ADDR_ HTTP_USER_AGENT, SCRIPT_FILENAME are now passed to the CGI execution environment
+
+-- what's new in 3.0 beta 1 --
++ automatic directory indexing!!
+
+-- what's new in 2.1 beta 3 --
++ children number is now configurable in the config file (do it even if you don't use it)
+
+-- what's new in 2.1 beta 2 --
++ fixed a quite serious bug that would consume all possible children and could possibly cause an overflow  after INT_MAX connections
++ I provide a better configurable Makefile that eases the inclusion of libraries (necessary for example to compile on solaris: add -lnsl and -lsocket)
+
+-- what's new in 2.1 beta 1 --
++ it is forking !!!
++ changed the mime type of css in the accluded mime_types.dat 
+
+-- what's new in 2.0.2 release --
++ a file rewinding inefficiency is now corrected in mime startup code
++ logging functions got rationalized into the Unified logWriter code
++ "too long request line" error gets also logged
+
+-- what's new in 2.0.1 release --
+   10 August 2003
++ %20 in the URLs are now correctly interpreted and converted to spaces
+
+-- what's new in 2.0 release --
+   10 March 2003
++ some cosmetics in the code
++ css mime type added in default mime types
+
+-- what's new in 2.0 beta 9 --
++ fixed a missing fclose() in HEAD
++ fixed an error that occoured only on some platoforms/compilers that caused to crash on some occasions
+  (most notably during file not found or cgi!) since the introduction of the dile statistics in the header:
+  it was due to misinterpreting null structures. Now this event is hopefully properly handled.
++ made a better parsing when some parameters miss in the first line of request (this gives more robust
+  request handling and yields a proper error response)
++ HEAD requests with HTTP/0.9 protocol (or missing protocol specification) log 0 bytes, not -1
+
+-- what's new in 2.0 beta 8 --
++ as was signalled, I made some mistakes in the string length declaration and check. This could often
+  cause 1 byte overflow of exactly the terminator. I adopted the solution to declare the strings 1 byte
+  larger than the constant specified: this is for user ergonomics: if someone specifies a maximal extension
+  length to be 3 he expects to be able to write "GIF" and "TXT" in it, so in cluding the terminator he
+  needs 4 bytes. I hope to have found all places where it occours, otherwise pleace report.
++ the server now returns last-modified information for a file 
+
+-- what's new in 2.0 beta 7 --
++ the request analysis code was greatly rewritten, it was streghtened against the overflow bugs signalled,
+  but also the existent overflow check code was compeltely rewritten for better hardening and
+  better maintainability and clarity
++ in the above contexts one of the "TO DO's" was done: path joining is now predetermined in length
++ minor imperfections found during rewrite were corrected
++ structure dimensions are now configurable through constants
+
+-- what's new in 2.0 beta 6 --
++ fixed a buffer overflow problem on POST request exceeding the defined BUFFER_SIZE
+  Bug discovered by INetCop Security (reported on securitytracker.com/alerts/2002/Nov/1005705.html)
+
+-- what's new in 2.0 beta 5 --
++ a compile option for difficult castings (BRAIN_DEAD_CAST) so it compiles 
+  even on vanilla HP-UX C compiler
+
+-- what's new in 2.0 beta 4 --
++ corrected some header types incompatibilities
++ greatly improved HEAD support! it should now usably works, even though errors
+  are handled normally... HEAD needs more testing.
+
+-- what's new in 2.0 beta 3 --
++ Content-Lenght in Header is now recongized and Parsed, thus POST handling is now much
+  much faster and reliable (even on non BSD-sockets that do not set timeout like HP-UX, Solaris...)
++ minor fixes, more debug code is now (de)selectable with PRINTF_DEBUG
+
+-- what's new in 2.0 beta 2 --
++ first rudiments for handling HEAD method are inserted, watch for updates
+
+-- what's new in 2.0 beta 1 --
++ minor adjustment to satisfy gcc 3 (and that could provide bad code with
+  uncareful optimization)
+
+-- what's new in 2.0 alpha 12 --
++ fixed a buffer overflow crash gently signaled by a user
++ during the above search and fix other possible errors were fixed
++ even generic errors in header parsing are now logged and reported
+
+-- what's new in 2.0 alpha 11 --
++ working directory for CGI scripts is now set correctly with chdir()
++ fixed a bug introduced in alpha10 with POST handling
+
+-- what's new in 2.0 alpha 10 --
++ a new header core broke it actually so that some browsers (notably konqueror
+  and iCab) couldn't work anymore. This is now fixed.
++ some code cleanup, soem global variables went private
+
+-- what's new in 2.0 alpha 9 --
++ new and faster code for "text" too
++ preprocessor defines for including some part of code (like debugging)
++ some possible source of bugs fixed
++ absence of protocol and 0.9 protocol version are handled correctly
++ the log file is now continuously update and cache flushing is forced,
+  currently, at every write
++ improved sock writing for the header part (EAGAIN is now handled)
++ some code clean-up
+
+-- what's new in 2.0 alpha 8 --
++ incorrect mime type handling if extension was too long bug is now corrected
++ default mime type is now a constant, should be cleaner, uniform and easier
+  to modify
++ fixed a bug which could cause malformed or incomplete (even HTTP/0.9) headers
+  to segmentation fault
++ fixed the header-accept core so that it is able again to catch read loops
+
+-- what's new in 2.0 alpha 7 --
++ CGI error loging is now more complete
++ introduced a "Commented logging" system for outside response errors
++ documentation rearranged
++ codefiles better ocommented minimally cleaned up
+
+-- what's new in 2.0 alpha 6 --
++ cgi socket output core rewritten and optimized
++ tested cgi length logging for correctness
++ raw binary file out core completely rewritten and optimized (no, ascii not yet,
+  I lack a more efficient solution)
++ User-Agent field is now better recognized also from somebrowsers
+  which formatted the header slightly differently (notoriously Opera)
++ error handling in CGI is improved, path security checks are made for CGIs
+  too now
+
+-- what's new in 2.0 alpha 5 --
++ fixed some bugs
++ better user-agent regognition
++ better logging, begun work on CGI logging
+
+-- what's new in 2.0 alpha 4 --
++ fixed long-time bug that caused LINUX to coredump on raw binary files. This
+was clearly my fault, it just didn't show up on every platform
++ some optimizations
+
+-- what's new in 2.0 alpha 3 --
+(9 Aufust 2002)
++ log now records User-Agent and host IP
++ CGI now has compliant query_string parsing, working command-line
++ POST method for CGI is now implemented and seems to work.
++ bug fixes, comestic code improvments
++ rewriting of some core parts, sockets are handled better on timeouts, no more
+  data loss should occour on heavy traffic
+
+-- what's new in 1.0 beta --
++ bug fixes
++ better logging
+
+-- what's new in 0.3 beta --
++ root path should be now much more protected
++ better document extension recognition
++ directories in path are now better handled
++ some optimizations
++ bug fixes
++ loop detection for an "empty" request, like a portscan, added
+
+-- what's new in 0.2 beta --
++ MIME types are configurable from a file at startup
++ minor bug fixes

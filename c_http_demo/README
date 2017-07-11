@@ -1,0 +1,64 @@
+==============================
+ PSERV -- the small web server
+==============================
+(pico Server)
+
+
+Home on Sourceforge: http://pserv.sourceforge.net
+                     http://sourceforge.net/projects/pserv
+
+Document Revision: 10 June 2005
+Current Version:   3.4
+
+
+WHAT IS IT ?
+------------
+
+pServ is a small, portable HTTP server. It is written in pure C for speed and
+portability. BSD-style sockets are needed to compile. It runs as a standalone program
+and does not require inetd.
+It should be small enough to be used in a mobile computer or to be run on your obsolete
+workstation you have somewhere. We would be happy to know about every strange platform
+it was ported to.
+
+NOTES
+-----
+- correct execution of a CGI script is recognized from the result of program
+  execution. So be sure to terminate with the correct return 0 in case of
+  correct execution and return != 0 otherwise.
+- the server can access files, exectuables and links with the permissions
+  which is run with. That is, if you run is as root it can access probably most
+  of your file system. So always run pico server with the least possible
+  user level and be very careful with symbolic links and cgi scripts
+
+KNWON BUGS
+----------
+- not implemented METHOD should respond with 503
+
+
+LIMITATIONS
+-----------
+- Keep-Alive connections are not handled and
+  always closed.
+- on the fly conversion for non-unix-style text files is extremely poor
+  (correction: the mac-> unix correction works fine but not with DOS files
+  for which there is no need since cr-lf should be always recognized
+
+LICENSE  and DISCLAIMER
+-----------------------
+
+pico Server  Copyright (C) 2001-2005 Riccardo Mottola
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; version 2 of the License.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program; if not, write to the
+Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor,
+Boston, MA  02110-1301, USA
