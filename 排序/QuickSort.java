@@ -1,73 +1,55 @@
-import java.util.*;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
 
-//快速排序
+/**
+ * 该方法的基本思想是：
+ * 1．先从数列中取出一个数作为基准数。
+ * 2．分区过程，将比这个数大的数全放到它的右边，小于或等于它的数全放到它的左边。
+ * 3．再对左右区间重复第二步，直到各区间只有一个数。
+ */
 public class QuickSort {
-    private static final Random rnd = new Random();
-    //随机测试次数
-    private static final int TEST_TIMES = 100;
-    //测试数据规模
-    private static final int NUMBER_SIZE = 10;
+    private static final Random random = new Random();
 
-    public static void main(String args[]) {
-        for (int j = 0; j < TEST_TIMES; j++) {
-            List<Integer> numbers = new ArrayList<>();
-            for (int i = 0; i < NUMBER_SIZE; i++) {
-                numbers.add(rnd.nextInt(100));
-            }
-            System.out.println(numbers);
-            sort(numbers);
-            System.out.println(numbers);
-            //验证排序结果
-            int i;
-            for(i = 1; i < numbers.size(); i++) {
-                if(numbers.get(i - 1) > numbers.get(i)) {
-                    System.out.println("sort failure!");
-                    break;
-                }
-            }
-            if(i == numbers.size()) {
-                System.out.println("sort success!");
-            }
-            System.out.println("");
-        }
-    }
-
-    public static void sort(List<Integer> numbers) {
-        if(numbers == null || numbers.size() == 0) {
+    public static <T extends Comparable<? super T>> void sort(List<T> list) {
+        if (list == null || list.size() == 0) {
             return;
         }
-        divideSort(numbers, 0, numbers.size() - 1);
+        sort(list, 0, list.size() - 1);
     }
 
-    public static void divideSort(List<Integer> numbers, int left, int right) {
-        //递归终止条件
-        if (left >= right) {
+    public static <T extends Comparable<? super T>> void sort(List<T> list, int start, int end) {
+        if (end <= start) {
             return;
         }
+        int left = start;
+        int right = end;
 
-        int i = left;
-        int j = right;
-        //随机与一个元素交换
-        Collections.swap(numbers, left, rnd.nextInt(right - left + 1) + left);
-        //临时变量
-        Integer tmp = numbers.get(left);
+        //随机挑选一个位置作为基准数, 自己做测试证明随机交换位置能提升性能
+        int randomPos = random.nextInt(end - start + 1) + start;
+        Collections.swap(list, left, randomPos);
 
+        //基准数
+        T tmp = list.get(left);
 
-        //小于tmp的放tmp左边，大于等于tmp的放tmp右边
-        while (i < j) {
-            while (numbers.get(j) >= tmp && i < j) {
-                j--;
+        //大于基准数的放右边,小于基准数的放左边
+        while (left < right) {
+
+            //从右边找到第一个小于基准数的位置
+            while (left < right && list.get(right).compareTo(tmp) > 0) {
+                right--;
             }
-            numbers.set(i, numbers.get(j));
+            list.set(left, list.get(right));
 
-            while (numbers.get(i) < tmp && i < j) {
-                i++;
+            //从左边找到第一个大于基准数的位置
+            while (left < right && list.get(left).compareTo(tmp) <= 0) {
+                left++;
             }
-            numbers.set(j, numbers.get(i));
+            list.set(right, list.get(left));
         }
-        numbers.set(i, tmp);
-
-        divideSort(numbers, left, i - 1);
-        divideSort(numbers, i + 1, right);
+        //基准数放中间
+        list.set(left, tmp);
+        sort(list, start, left - 1);
+        sort(list, left + 1, end);
     }
 }

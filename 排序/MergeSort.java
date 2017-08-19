@@ -1,83 +1,55 @@
-import java.util.*;
+import java.util.List;
 
-//归并排序
 public class MergeSort {
 
-    //随机测试次数
-    private static final int TEST_TIMES = 5;
-    //测试数据规模
-    private static final int NUMBER_SIZE = 10;
-
-    public static void main(String args[]) {
-        for (int j = 0; j < TEST_TIMES; j++) {
-            Random rnd = new Random();
-            List<Integer> numbers = new ArrayList<>();
-            for (int i = 0; i < NUMBER_SIZE; i++) {
-                numbers.add(rnd.nextInt(NUMBER_SIZE));
-            }
-            System.out.println(numbers);
-            sort(numbers);
-            System.out.println(numbers);
-            //验证排序结果
-            int i;
-            for(i = 1; i < numbers.size(); i++) {
-                if(numbers.get(i - 1) > numbers.get(i)) {
-                    System.out.println("sort failure!");
-                    break;
-                }
-            }
-            if(i == numbers.size()) {
-                System.out.println("sort success!");
-            }
-            System.out.println("");
-        }
-    }
-
-    public static void sort(List<Integer> numbers) {
-        if(numbers == null || numbers.size() == 0) {
+    public static <T extends Comparable<? super T>> void sort(List<T> list) {
+        if (list == null) {
             return;
         }
-        Integer[] tmp = new Integer[numbers.size()];
-        mergeSort(numbers, 0, numbers.size() - 1, tmp);
+        Object[] tmp = new Object[list.size() + 1];
+        sort(list, 0, list.size() - 1, tmp);
     }
 
-    public static void mergeSort(List<Integer> numbers, int left, int right, Integer[] tmp) {
-        if (left >= right) {
+    private static <T extends Comparable<? super T>> void sort(List<T> list, int startPos, int endPos, Object[] tmp) {
+        if (endPos - startPos == 0) {
             return;
         }
-
-        int mid = (left + right) >>> 1;
-        mergeSort(numbers, left, mid, tmp);
-        mergeSort(numbers, mid + 1, right, tmp);
-        mergeNumbers(numbers, left, mid, right, tmp);
+        int mid = (startPos + endPos) / 2;
+        sort(list, startPos, mid, tmp);
+        sort(list, mid + 1, endPos, tmp);
+        merge(list, startPos, endPos, tmp);
     }
 
-    public static void mergeNumbers(List<Integer> numbers, int left, int mid, int right, Integer[] tmp) {
-        int i = left;
-        int iEnd = mid;
-        int j = mid + 1;
-        int jEnd = right;
+    private static <T extends Comparable<? super T>> void merge(List<T> list, int left, int right, Object[] tmp) {
+
+        int mid = (left + right) / 2;
+        int leftIndex = left;
+        int leftEnd = mid;
+
+        int rightIndex = mid + 1;
+        int rightEnd = right;
 
         int index = left;
 
-        while (i <= iEnd && j <= jEnd) {
-            if (numbers.get(i) < numbers.get(j)) {
-                tmp[index++] = numbers.get(i++);
+        while (leftIndex <= leftEnd && rightIndex <= rightEnd) {
+            if (list.get(leftIndex).compareTo(list.get(rightIndex)) <= 0) {
+                tmp[index++] = list.get(leftIndex++);
             } else {
-                tmp[index++] = numbers.get(j++);
+                tmp[index++] = list.get(rightIndex++);
             }
         }
 
-        while (i <= iEnd) {
-            tmp[index++] = numbers.get(i++);
+        while (leftIndex <= leftEnd) {
+            tmp[index++] = list.get(leftIndex++);
         }
 
-        while (j <= jEnd) {
-            tmp[index++] = numbers.get(j++);
+        while (rightIndex <= rightEnd) {
+            tmp[index++] = list.get(rightIndex++);
         }
 
-        for (index = left; index <= right; index++ ) {
-            numbers.set(index, tmp[index]);
+        for (int i = left; i <= right; i++) {
+            list.set(i, (T) tmp[i]);
         }
     }
+
 }
