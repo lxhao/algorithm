@@ -1,16 +1,13 @@
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner in = getScanner(System.in);
 //        Scanner in = getScanner("input.txt");
         while (in.hasNext()) {
-            int n = in.nextInt();
-            int exponent = (int) (Math.log(n) / Math.log(2));
-            System.out.println((int) Math.pow(2, exponent) - 1);
         }
         in.close();
     }

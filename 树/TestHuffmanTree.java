@@ -27,6 +27,5 @@ public class TestHuffmanTree {
         System.out.println("哈弗曼编码为:");
         System.out.println(huffmanCodes);
     }
-
 }
 
