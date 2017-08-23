@@ -16,11 +16,28 @@ public class 股票最大收益 {
         return getMostProfit(prices, 2);
     }
 
-    /**
-     * @Param 股票价格
-     * @Param 最大交易次数
-     * @Return 最大收益
-     */
+    //
+    //  @Param 股票价格
+    //  @Param 最大交易次数
+    //  @Return 最大收益
+    //
+    //  k表示第几次选择,i表示天数
+    //  dp[k][i] = max{
+    //     dp[k][i - 1], dp[k - 1][j] + prices[i] - prices[j]
+    //  }
+    //  j属于[0, i - 1]
+    //  第i天不交易和交易取最大值,交易的时候选择能获得最大收益的那天买入
+    //  时间复杂度是o(k*n^2)
+    //
+    //  优化:
+    //  dp[k][i] = max{
+    //     dp[k][i - 1], prices[i] + max(dp[k - 1][j] - prices[j])
+    //  }
+    //  prices[i]是固定的,dp[k - 1][j] - prices[j]可以在前面遍历的时候顺手记录一下
+    //  时间复杂度是o(k*n)
+    //
+    //
+    //
     public static int getMostProfit(int[] prices, int times) {
         int[][] mostProfit = new int[times + 1][prices.length];
         for (int i = 1; i <= times; i++) {

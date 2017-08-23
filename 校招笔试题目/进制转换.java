@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.Scanner;
 
-public class Main {
+public class 进制转换 {
 
     final static char[] digits = {
             '0', '1', '2', '3', '4', '5',
