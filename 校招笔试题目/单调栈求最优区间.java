@@ -53,11 +53,8 @@ public class 单调栈求最优区间 {
         stack.push(new Node(-1, 0));
         int maxVal = Integer.MIN_VALUE;
         for (int i = 0; i <= numbers.length; i++) {
-            int curVal = 0;
             //到达最后一个元素,把当前值设为0,让所有元素出栈并计算区间值
-            if (i < numbers.length) {
-                curVal = numbers[i];
-            }
+            int curVal = (i == numbers.length) ? 0 : numbers[i];
             Node p = new Node(curVal, i);
             while (curVal <= stack.lastElement().val) {
                 p = stack.pop();
