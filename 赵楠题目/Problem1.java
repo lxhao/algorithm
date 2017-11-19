@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Main {
+public class Problem2 {
 
     public static void main(String args[]) {
         String baseUrl = "http://tju.com/";
@@ -97,7 +97,7 @@ public class Main {
 
     private static Map<String, Long> staticProfits(String baseUrl) {
         ConcurrentHashMap<String, Long> profitsMap = new ConcurrentHashMap<>();
-        int runnerNum = 4;
+        int runnerNum = 20;
         CountDownLatch latch = new CountDownLatch(runnerNum);
         Runnable runnable = new MyTask(profitsMap, baseUrl, latch);
         ExecutorService executorService = Executors.newFixedThreadPool(runnerNum);

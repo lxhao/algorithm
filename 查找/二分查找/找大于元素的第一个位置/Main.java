@@ -20,7 +20,6 @@ public class Main {
             int pos = find(numbers, 0, numbers.size() - 1, 4);
             System.out.println(pos);
             System.out.println("");
-
         }
     }
 
@@ -40,9 +39,7 @@ public class Main {
                 high = mid - 1;
             }
         }
-
         return low == numbers.size() ? low - 1 : low;
-
     }
 }
 

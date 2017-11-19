@@ -28,7 +28,6 @@ public class Main {
         int low  = start;
         int high = end;
         int mid;
-
         while(low <= high) {
             mid = (low + high) / 2;
             if(numbers.get(mid) >= e) {
@@ -37,9 +36,7 @@ public class Main {
                 low = mid + 1;
             }
         }
-
         return high;
-
     }
 }
 

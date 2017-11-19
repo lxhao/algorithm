@@ -1,11 +1,14 @@
 package 数值的整数次方;
 
+import java.math.BigDecimal;
+import java.text.NumberFormat;
+
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(new Solution().Power(0, 1));
-        System.out.println(new Solution().Power(2, -1));
-        System.out.println(new Solution().Power(2, 1));
-        System.out.println(new Solution().Power(2, 10));
+        double res = new Solution().Power(92.125, 12);
+        BigDecimal bg = new BigDecimal(res);
+        String s = bg.stripTrailingZeros().toPlainString();
+        System.out.println(s);
     }
 
     /**
