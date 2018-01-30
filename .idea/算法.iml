@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/字符串" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/图" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/知识点" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/c++学习" />
     </content>
     <orderEntry type="inheritedJdk" />
