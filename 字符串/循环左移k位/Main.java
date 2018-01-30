@@ -1,3 +1,5 @@
+package 循环左移k位;
+
 import java.util.*;
 
 //把字符串循环左移k位

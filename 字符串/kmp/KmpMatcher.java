@@ -1,17 +1,20 @@
+package kmp;
+
 import java.util.*;
 
 public class KmpMatcher {
-    private static final int TEST_SIZE = (int)Math.pow(10, 8);
+    private static final int TEST_SIZE = (int) Math.pow(10, 8);
 
     public static void main(String[] args) {
         KmpMatcher main = new KmpMatcher();
-        main.testSpeed();
+        main.kmpMatch("abdcababdcabdcb", "abcaab");
+//        main.testSpeed();
     }
 
     private void testSpeed() {
         StringBuilder text = new StringBuilder();
         Random random = new Random();
-        for(int i = 0; i < TEST_SIZE; i++) {
+        for (int i = 0; i < TEST_SIZE; i++) {
             text.append(random.nextInt(27) + 'a');
         }
         String pattern = text.substring(TEST_SIZE / 100, TEST_SIZE / 99);
@@ -33,12 +36,18 @@ public class KmpMatcher {
         int sourcePos = 0;
         int patternPos = 0;
         int[] next = getNext(pattern);
+        for (int e : next) {
+            System.out.print(e + "\t");
+        }
+        System.out.println("");
         for (; sourcePos < sourceLen && patternPos < patternLen; ) {
-            if (patternPos == -1 || source.charAt(sourcePos) == pattern.charAt(patternPos)) {
+            if (source.charAt(sourcePos) == pattern.charAt(patternPos)) {
                 patternPos++;
                 sourcePos++;
+            } else if (patternPos == 0) {
+                sourcePos++;
             } else {
-                patternPos = next[patternPos];
+                patternPos = next[patternPos - 1];
             }
         }
         return patternPos == patternLen ? sourcePos - patternLen : -1;
@@ -47,14 +56,17 @@ public class KmpMatcher {
     private int[] getNext(String s) {
         int[] next = new int[s.length()];
         int len = s.length();
-        next[0] = -1;
-        for (int i = 0, k = -1; i < len - 1; ) {
-            if (k == -1 || s.charAt(i) == s.charAt(k)) {
-                i++;
+        for (int q = 1, k = 0; q < len; ) {
+            if (s.charAt(k) == s.charAt(q)) {
                 k++;
-                next[i] = k;
+                System.out.printf("k%d,q%d\t", k, q);
+                next[q] = k;
+                q++;
+            } else if (k == 0) {
+                System.out.printf("k%d,q%d\t", k, q);
+                q++;
             } else {
-                k = next[k];
+                k = next[k - 1];
             }
         }
         return next;

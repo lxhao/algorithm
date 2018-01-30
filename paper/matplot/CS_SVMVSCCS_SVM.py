@@ -27,8 +27,8 @@ y1 = [0.76, 0.71, 0.69, 0.77, 0.78, 0.85, 0.72, 0.83, 0.72, 0.86, 0.67, 0.82]
 y2 = [0.74, 0.65, 0.63, 0.77, 0.74, 0.84, 0.66, 0.79, 0.69, 0.85, 0.63, 0.80]
 plt.axhspan = 1
 plt.axvspan = 0.01
-plt.plot(x, y1, 'g-s', label='CCS-SVM')
-plt.plot(x, y2, 'r-o', label='CS-SVM')
+plt.plot(x, y1, 'k-o', label='CCS-SVM')
+plt.plot(x, y2, 'k--', label='CS-SVM')
 plt.legend()
 plt.title(u'CCS-SVM和CS-SVM的G-mean比较', **title_font)
 plt.xlabel(u'数据集', **axis_font)
@@ -45,8 +45,8 @@ y1 = [0.51, 0.43, 0.58, 0.69, 0.44, 0.51, 0.53, 0.58, 0.58, 0.57, 0.42, 0.58]
 y2 = [0.50, 0.40, 0.45, 0.72, 0.43, 0.50, 0.51, 0.56, 0.55, 0.57, 0.28, 0.47]
 plt.axhspan = 1
 plt.axvspan = 0.01
-plt.plot(x, y1, 'g-s', label='CCS-SVM')
-plt.plot(x, y2, 'r-o', label='CS-SVM')
+plt.plot(x, y1, 'k-o', label='CCS-SVM')
+plt.plot(x, y2, 'k--', label='CS-SVM')
 plt.legend()
 plt.title(u'CCS-SVM和CS-SVM的F1值比较', **title_font)
 plt.xlabel(u'数据集', **axis_font)

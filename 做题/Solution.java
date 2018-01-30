@@ -1,43 +1,60 @@
-/**
- * 题目描述:
- * 在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。
- * 请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
- */
-public class Solution {
+import java.util.ArrayList;
 
+public class Solution {
     public static void main(String[] args) {
-        int[][] array = {
-                {1, 2, 8, 9},
-                {4, 7, 10, 13},
+        int[][] matrix = {
+                {1, 2},
+                {3, 4},
+                {5, 6},
+                {7, 8},
+                {9, 10}
         };
-        int target = 7;
-        System.out.println(new Solution().Find(target, array));
+        System.out.println(new Solution().printMatrix(matrix));
     }
 
-    /**
-     * 从右往左搜索,如果大于target,继续往左移动,如果小于target,往下移动
-     *
-     * @param target
-     * @param array
-     * @return
-     */
-    public boolean Find(int target, int[][] array) {
-        if (array == null || array.length == 0) {
-            return false;
+    public ArrayList<Integer> printMatrix(int[][] matrix) {
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        if (matrix == null) {
+            return ans;
         }
-        int row = 0;
-        int col = array.length - 1;
-        int nowVal;
-        while (row < array[0].length && col >= 0) {
-            nowVal = array[row][col];
-            if (nowVal > target) {
-                col--;
-            } else if (nowVal < target) {
-                row++;
-            } else {
-                return true;
+
+        int top = 0;
+        int left = 0;
+
+        int rowLen = matrix.length;
+        int colLen = matrix[0].length;
+
+        int maxCircle = Math.min((matrix[0].length + 1) / 2, (matrix.length + 1) / 2);
+        for (int m = 0; m <= maxCircle; m++, top++, left++) {
+            // 从左至右打印上面一行
+            if (top <= (rowLen - 1) / 2) {
+                for (int i = left; i <= (colLen - left - 1); i++) {
+                    ans.add(matrix[top][i]);
+                }
+            }
+
+            //从上往下打印右边一列
+            if (left <= (colLen - 1) / 2) {
+                for (int i = top + 1; i <= (rowLen - top - 1) - 1; i++) {
+                    ans.add(matrix[i][colLen - left - 1]);
+                }
+            }
+
+            //从右至左打印底部一行
+            if (top <= (rowLen - 1) / 2 && top != rowLen - top - 1) {
+                for (int i = (colLen - left - 1); i >= left; i--) {
+                    ans.add(matrix[rowLen - top - 1][i]);
+                }
+            }
+
+            //从下往上打印左边一列
+            if (left <= (colLen - 1) / 2 && left != colLen - left - 1) {
+                for (int i = (rowLen - top - 1) - 1; i >= top + 1; i--) {
+                    ans.add(matrix[i][left]);
+                }
             }
         }
-        return false;
+        return ans;
     }
 }

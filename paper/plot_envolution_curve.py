@@ -16,9 +16,13 @@ my_best_f1 = {'CM1': 0.51, 'PC2': 0.43, 'JM1': 0.58, 'MC2': 0.69,
               'MW1': 0.44, 'PC1': 0.51, 'KC1': 0.53, 'KC3': 0.58,
               'PC5': 0.58, 'PC4': 0.57, 'MC1': 0.42, 'PC3': 0.58}
 
+marker = ['-', '--', '*', '+', 'x', '|', '_', '1', '2', '3', '4', '']
+
 
 def plot(plt, type):
+  i = -1
   for dataSetName in xticks:
+    i += 1
     steps, variants, gmeans, f1s = list(zip(*best_fit[dataSetName]))
     best_step, best_v, best_gmean, best_f1 = steps[-1], variants[-1][0], gmeans[
       -1], f1s[-1]
@@ -26,9 +30,11 @@ def plot(plt, type):
     best_f1 = f1s[-1]
     gmeans = [(my_best_gmean[dataSetName] - best_gmean + x) for x in gmeans]
     best_gmean = gmeans[-1]
-    plt.plot(steps, f1s if type == 'F1' else gmeans, label=dataSetName)
+    plt.plot(steps, f1s if type == 'F1' else gmeans, 'k' + marker[i],
+             label=dataSetName)
     plt.scatter([best_step], [best_f1] if type == 'F1' else [best_gmean],
-                facecolor='r')
+                facecolor='k')
+
 
 def draw():
   # Set the font dictionaries (for plot title and axis titles)
@@ -58,5 +64,6 @@ def draw():
   plt.xlabel(u'G-mean', **axis_font)
   plt.ylabel(u'generation', **axis_font)
   plt.show()
+
 
 draw()

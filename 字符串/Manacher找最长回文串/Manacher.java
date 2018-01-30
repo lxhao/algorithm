@@ -1,3 +1,5 @@
+package Manacher找最长回文串;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;

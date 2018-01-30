@@ -433,7 +433,7 @@ def compare(f, x, y):
   print('决策树模型：\ng-mean值为%.2f,f1值%.2f\n' % (gmean, f1))
 
 
-def main():
+def sortTest():
   dataSets = readData("./data/")
   for filename, data in dataSets.items():
     # if not filename.startswith('./data/CM1'):
@@ -452,7 +452,7 @@ def main():
 
 
 if __name__ == "__main__":
-  main()
+  sortTest()
   # computeF1()
   # test()
   # customCompute()

@@ -37,7 +37,8 @@ n_samples_1 = 1000
 n_samples_2 = 100
 X = np.r_[1.5 * rng.randn(n_samples_1, 2),
           0.5 * rng.randn(n_samples_2, 2) + [2, 2]]
-y = [0] * (n_samples_1) + [1] * (n_samples_2)
+y = [0] * n_samples_1 + [1] * n_samples_2
+color = [125] * n_samples_1 + ['w'] * n_samples_2
 
 # fit the model and get the separating hyperplane
 clf = svm.SVC(kernel='linear', C=1.0)
@@ -48,7 +49,7 @@ wclf = svm.SVC(kernel='linear', class_weight={1: 10})
 wclf.fit(X, y)
 
 # plot separating hyperplanes and samples
-plt.scatter(X[:, 0], X[:, 1], c=y, cmap=plt.cm.Paired, edgecolors='k')
+plt.scatter(X[:, 0], X[:, 1], c=color, cmap=plt.cm.Paired, edgecolors='k')
 plt.legend()
 
 # plot the decision functions for both classifiers
@@ -66,7 +67,7 @@ xy = np.vstack([XX.ravel(), YY.ravel()]).T
 Z = clf.decision_function(xy).reshape(XX.shape)
 
 # plot decision boundary and margins
-a = ax.contour(XX, YY, Z, colors='k', levels=[0], alpha=0.5, linestyles=['-'])
+a = ax.contour(XX, YY, Z, colors='k', levels=[0], alpha=0.5, linestyles=['dashed'])
 
 # get the separating hyperplane for weighted classes
 Z = wclf.decision_function(xy).reshape(XX.shape)
@@ -74,7 +75,8 @@ Z = wclf.decision_function(xy).reshape(XX.shape)
 mpl.rcParams['font.sans-serif'] = [u'simHei']
 mpl.rcParams['axes.unicode_minus'] = False
 # plot decision boundary and margins for weighted classes
-b = ax.contour(XX, YY, Z, colors='r', levels=[0], alpha=0.5, linestyles=['-'])
+b = ax.contour(XX, YY, Z, colors='k', levels=[0], alpha=0.5,
+               linestyles=['-'])
 
 plt.legend([a.collections[0], b.collections[0]], ["标准SVM", "加大少数类误分类代价"],
            loc="best")

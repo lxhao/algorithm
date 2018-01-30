@@ -30,7 +30,7 @@ public class HuffmanTree {
                 }
         );
         //用数组保存哈弗曼树, 哈弗曼数的度为0的节点为counter.size(), 度为1的节点为0
-        //度为2的叶子节点为counter.size() - 1
+        //度为2的节点为counter.size() - 1
         Node[] huffmanTree = new Node[counter.size() * 2 - 1];
         int index = 0;
         //把叶子节点放在数组前面的counter.size()个位置

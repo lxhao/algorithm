@@ -27,8 +27,8 @@ y1 = [0.76, 0.71, 0.69, 0.77, 0.78, 0.85, 0.72, 0.83, 0.72, 0.86, 0.67, 0.82]
 y2 = [0.71, 0.43, 0.62, 0.69, 0.68, 0.83, 0.65, 0.70, 0.68, 0.85, 0.56, 0.78]
 plt.axhspan = 1
 plt.axvspan = 0.01
-plt.plot(x, y1, 'g-s', label='CCS-SVM')
-plt.plot(x, y2, 'r-o', label='CS-SVM')
+plt.plot(x, y1, 'k-o', label='CCS-SVM')
+plt.plot(x, y2, 'k--', label='CS-SVM')
 plt.legend()
 plt.title(u'做特征选择和不做特征选择G-mean值比较', **title_font)
 plt.xlabel(u'数据集', **axis_font)
@@ -45,8 +45,8 @@ y1 = [0.51, 0.43, 0.58, 0.69, 0.44, 0.51, 0.53, 0.58, 0.58, 0.57, 0.42, 0.58]
 y2 = [0.37, 0.12, 0.42, 0.61, 0.37, 0.39, 0.51, 0.52, 0.54, 0.61, 0.23, 0.46]
 plt.axhspan = 1
 plt.axvspan = 0.01
-plt.plot(x, y1, 'g-s', label='CCS-SVM')
-plt.plot(x, y2, 'r-o', label='CS-SVM')
+plt.plot(x, y1, 'k-o', label='CCS-SVM')
+plt.plot(x, y2, 'k--', label='CS-SVM')
 plt.legend()
 plt.title(u'做特征选择和不做特征选择F1值比较', **title_font)
 plt.xlabel(u'数据集', **axis_font)

@@ -2,34 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bdc1a79-8dfb-4b45-a666-90170d13cbf5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../做题/Color.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../做题/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../校招笔试题目/华为字符串拼接.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../校招笔试题目/网易反转数字.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/ar1.arff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/ar3.arff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/ar4.arff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/ar5.arff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/ar6.arff" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/BubbleSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/HeapSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/InsertSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/MergeSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/QuickSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/SortTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../图/顶点覆盖/Graph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../图/顶点覆盖/MinVertexCover.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../校招笔试题目/第k大的数.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../牛客刷题/网易双核处理/Main.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../图拓扑排序/.Main.java.swp" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../图拓扑排序/Main.java" afterPath="$PROJECT_DIR$/../图/图拓扑排序/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c++学习/linux_socket测试" afterPath="$PROJECT_DIR$/../c++学习/linux_socket测试" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gaft" afterPath="$PROJECT_DIR$/gaft" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../常见题目/状态机/fsmDemos" afterPath="$PROJECT_DIR$/../常见题目/状态机/fsmDemos" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/算法.iml" afterPath="$PROJECT_DIR$/../.idea/算法.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../input.txt" afterPath="$PROJECT_DIR$/../input.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/paper.iml" afterPath="$PROJECT_DIR$/.idea/paper.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SS-SVM实验/plot_separating_hyperplane_unbalanced.py" afterPath="$PROJECT_DIR$/SS-SVM实验/plot_separating_hyperplane_unbalanced.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/defectPrediction.py" afterPath="$PROJECT_DIR$/defectPrediction.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gaft/examples/ex02/ex02.py" afterPath="$PROJECT_DIR$/gaft/examples/ex02/ex02.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gaft/gaft/analysis/fitness_store.py" afterPath="$PROJECT_DIR$/gaft/gaft/analysis/fitness_store.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gaft/gaft/components/population.py" afterPath="$PROJECT_DIR$/gaft/gaft/components/population.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gaft/gaft/engine.py" afterPath="$PROJECT_DIR$/gaft/gaft/engine.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gaft/gaft/plugin_interfaces/analysis.py" afterPath="$PROJECT_DIR$/gaft/gaft/plugin_interfaces/analysis.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matplot/CS_SVMVSCCS_SVM.py" afterPath="$PROJECT_DIR$/matplot/CS_SVMVSCCS_SVM.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matplot/featuresSelection.py" afterPath="$PROJECT_DIR$/matplot/featuresSelection.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plot_envolution_curve.py" afterPath="$PROJECT_DIR$/plot_envolution_curve.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../做题/Main.java" afterPath="$PROJECT_DIR$/../做题/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../做题/Solution.java" afterPath="$PROJECT_DIR$/../做题/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../做题/Template.java" afterPath="$PROJECT_DIR$/../做题/Template.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../剑指offer/数值的整数次方/Solution.java" afterPath="$PROJECT_DIR$/../剑指offer/数值的整数次方/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../查找/二分查找/找大于元素的第一个位置/Main.java" afterPath="$PROJECT_DIR$/../查找/二分查找/找大于元素的第一个位置/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../查找/二分查找/找小于元素的第一个位置/Main.java" afterPath="$PROJECT_DIR$/../查找/二分查找/找小于元素的第一个位置/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../字符串/Manacher找最长回文串/Manacher.java" afterPath="$PROJECT_DIR$/../字符串/Manacher找最长回文串/Manacher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../字符串/kmp/KmpMatcher.java" afterPath="$PROJECT_DIR$/../字符串/kmp/KmpMatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../字符串/字符串全排列/Main.java" afterPath="$PROJECT_DIR$/../字符串/字符串全排列/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../字符串/字符串反转/Main.java" afterPath="$PROJECT_DIR$/../字符串/字符串反转/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../字符串/循环左移k位/Main.java" afterPath="$PROJECT_DIR$/../字符串/循环左移k位/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../字符串/最长公共子序列/Main.java" afterPath="$PROJECT_DIR$/../字符串/最长公共子序列/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../排序/HeapSort.java" afterPath="$PROJECT_DIR$/../排序/HeapSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../树/HuffmanTree.java" afterPath="$PROJECT_DIR$/../树/HuffmanTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../树/TestHuffmanTree.java" afterPath="$PROJECT_DIR$/../树/TestHuffmanTree.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,19 +54,102 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/paper$defectPrediction.coverage" NAME="defectPrediction Coverage Results" MODIFIED="1508659172197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/paper$drawImage.coverage" NAME="drawImage Coverage Results" MODIFIED="1509271676384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplot" />
-    <SUITE FILE_PATH="coverage/paper$plot_envolution_curve.coverage" NAME="plot_envolution_curve Coverage Results" MODIFIED="1509284977761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/paper$drawImage.coverage" NAME="drawImage Coverage Results" MODIFIED="1516119111890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplot" />
+    <SUITE FILE_PATH="coverage/paper$plot_envolution_curve.coverage" NAME="plot_envolution_curve Coverage Results" MODIFIED="1516121247631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/paper$GATest2.coverage" NAME="GATest2 Coverage Results" MODIFIED="1505355273761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/paper$test.coverage" NAME="test Coverage Results" MODIFIED="1504430569359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/paper$plot_separating_hyperplane_unbalanced.coverage" NAME="plot_separating_hyperplane_unbalanced Coverage Results" MODIFIED="1506862377405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SS-SVM实验" />
-    <SUITE FILE_PATH="coverage/paper$featuresSelection.coverage" NAME="featuresSelection Coverage Results" MODIFIED="1509284873700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplot" />
+    <SUITE FILE_PATH="coverage/paper$plot_separating_hyperplane_unbalanced.coverage" NAME="plot_separating_hyperplane_unbalanced Coverage Results" MODIFIED="1516430019632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SS-SVM实验" />
+    <SUITE FILE_PATH="coverage/paper$featuresSelection.coverage" NAME="featuresSelection Coverage Results" MODIFIED="1516118899762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplot" />
     <SUITE FILE_PATH="coverage/paper$GATest.coverage" NAME="GATest Coverage Results" MODIFIED="1504601636660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
+      <file leaf-file-name="pyplot.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91252">
+              <caret line="3309" column="4" lean-forward="false" selection-start-line="3309" selection-start-column="4" selection-end-line="3309" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plot_separating_hyperplane_unbalanced.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SS-SVM实验/plot_separating_hyperplane_unbalanced.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+              <folding>
+                <element signature="e#836#860#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="featuresSelection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matplot/featuresSelection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CS_SVMVSCCS_SVM.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matplot/CS_SVMVSCCS_SVM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plot_envolution_curve.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plot_envolution_curve.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="best_fit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/best_fit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3388">
+              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="axes3d.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.5/dist-packages/mpl_toolkits/mplot3d/axes3d.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41580">
+              <caret line="1510" column="36" lean-forward="false" selection-start-line="1510" selection-start-column="36" selection-end-line="1510" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_axes.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14028">
+              <caret line="544" column="0" lean-forward="false" selection-start-line="544" selection-start-column="0" selection-end-line="544" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,6 +163,7 @@
       <find>j</find>
       <find>jj</find>
       <find>jjjjj</find>
+      <find>kkkkk</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,7 +184,6 @@
         <option value="$PROJECT_DIR$/gaft/gaft/operators/selection/roulette_wheel_selection.py" />
         <option value="/mnt/code/算法/paper/gaft/gaft/analysis/console_output.py" />
         <option value="$PROJECT_DIR$/clusters.py" />
-        <option value="$PROJECT_DIR$/SS-SVM实验/plot_separating_hyperplane_unbalanced.py" />
         <option value="/mnt/code/算法/paper/gaft/gaft/engine.py" />
         <option value="/mnt/code/算法/paper/gaft/gaft/mpiutil.py" />
         <option value="$PROJECT_DIR$/gaft/gaft/analysis/fitness_store.py" />
@@ -95,11 +192,12 @@
         <option value="$PROJECT_DIR$/gaft/gaft/engine.py" />
         <option value="$PROJECT_DIR$/CCSVM.py" />
         <option value="$PROJECT_DIR$/matplot/drawImage.py" />
-        <option value="$PROJECT_DIR$/matplot/featuresSelection.py" />
         <option value="$PROJECT_DIR$/defectPrediction.py" />
-        <option value="$PROJECT_DIR$/matplot/CS_SVMVSCCS_SVM.py" />
         <option value="$PROJECT_DIR$/best_fit.py" />
+        <option value="$PROJECT_DIR$/matplot/featuresSelection.py" />
+        <option value="$PROJECT_DIR$/matplot/CS_SVMVSCCS_SVM.py" />
         <option value="$PROJECT_DIR$/plot_envolution_curve.py" />
+        <option value="$PROJECT_DIR$/SS-SVM实验/plot_separating_hyperplane_unbalanced.py" />
       </list>
     </option>
   </component>
@@ -110,10 +208,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-30" />
-    <option name="y" value="-5" />
-    <option name="width" value="1596" />
-    <option name="height" value="827" />
+    <option name="x" value="10" />
+    <option name="y" value="-1" />
+    <option name="width" value="960" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -141,19 +239,18 @@
             <path>
               <item name="paper" type="b2602c69:ProjectViewProjectNode" />
               <item name="paper" type="462c0819:PsiDirectoryNode" />
-              <item name="matplot" type="462c0819:PsiDirectoryNode" />
+              <item name="SS-SVM实验" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="paper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paper" type="462c0819:PsiDirectoryNode" />
-              <item name="SS-SVM实验" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plot_envolution_curve">
+  <component name="RunManager" selected="Python.plot_separating_hyperplane_unbalanced">
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -496,11 +593,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.plot_envolution_curve" />
-        <item index="1" class="java.lang.String" itemvalue="Python.featuresSelection" />
+        <item index="0" class="java.lang.String" itemvalue="Python.plot_separating_hyperplane_unbalanced" />
+        <item index="1" class="java.lang.String" itemvalue="Python.plot_envolution_curve" />
         <item index="2" class="java.lang.String" itemvalue="Python.drawImage" />
-        <item index="3" class="java.lang.String" itemvalue="Python.defectPrediction" />
-        <item index="4" class="java.lang.String" itemvalue="Python.plot_separating_hyperplane_unbalanced" />
+        <item index="3" class="java.lang.String" itemvalue="Python.featuresSelection" />
+        <item index="4" class="java.lang.String" itemvalue="Python.defectPrediction" />
       </list>
     </recent_temporary>
   </component>
@@ -521,19 +618,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-30" y="-5" width="1922" height="1089" extended-state="6" />
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28972974" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2892473" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.79571104" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.79495615" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6693002" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45598194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45550352" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -550,18 +648,18 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.79571104" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.79495615" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6693002" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28972974" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2892473" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32748538" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45598194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45550352" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -585,21 +683,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gaft/tests/roulette_wheel_selection_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/sklearn/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="469" column="8" lean-forward="false" selection-start-line="469" selection-start-column="8" selection-end-line="469" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ar1.arff" />
     <entry file="file:///usr/local/lib/python3.5/dist-packages/sklearn/feature_selection/univariate_selection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -654,11 +737,6 @@
         <state relative-caret-position="321">
           <caret line="671" column="17" lean-forward="false" selection-start-line="671" selection-start-column="17" selection-end-line="671" selection-end-column="17" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SS-SVM实验/Figure_1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gaft/MANIFEST.in">
@@ -880,45 +958,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SS-SVM实验/plot_separating_hyperplane_unbalanced.py">
+    <entry file="file://$PROJECT_DIR$/SS-SVM实验/Figure_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/numpy/lib/index_tricks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="67" column="20" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+        <state relative-caret-position="182">
+          <caret line="450" column="8" lean-forward="false" selection-start-line="450" selection-start-column="8" selection-end-line="450" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/best_fit.py">
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/mpl_toolkits/mplot3d/axes3d.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="41580">
+          <caret line="1510" column="36" lean-forward="false" selection-start-line="1510" selection-start-column="36" selection-end-line="1510" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matplot/CS_SVMVSCCS_SVM.py">
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="14028">
+          <caret line="544" column="0" lean-forward="false" selection-start-line="544" selection-start-column="0" selection-end-line="544" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="2670" column="11" lean-forward="false" selection-start-line="2670" selection-start-column="11" selection-end-line="2670" selection-end-column="11" />
+        <state relative-caret-position="91252">
+          <caret line="3309" column="4" lean-forward="false" selection-start-line="3309" selection-start-column="4" selection-end-line="3309" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/matplot/featuresSelection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="756">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matplot/CS_SVMVSCCS_SVM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/best_fit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3388">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plot_envolution_curve.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        <state relative-caret-position="522">
+          <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SS-SVM实验/plot_separating_hyperplane_unbalanced.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+          <folding>
+            <element signature="e#836#860#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

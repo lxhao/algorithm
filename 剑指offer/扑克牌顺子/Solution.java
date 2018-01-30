@@ -9,8 +9,36 @@ package 扑克牌顺子;
  * 上面的5张牌就可以变成“1,2,3,4,5”(大小王分别看作2和4),“So Lucky!”。LL决定去买体育彩票啦。
  * 现在,要求你使用这幅牌模拟上面的过程,然后告诉我们LL的运气如何。为了方便起见,你可以认为大小王是0。
  */
+
 public class Solution {
+    public static void main(String[] args) {
+
+    }
+
     public boolean isContinuous(int[] numbers) {
-        return false;
+        if (numbers == null || numbers.length != 5) {
+            return false;
+        }
+        int min = 14;
+        int max = -1;
+        int flag = 0;
+        for (int number : numbers) {
+            if (number < 0 || number > 13) {
+                return false;
+            }
+            if (number == 0) {
+                continue;
+            }
+            if (((flag >> number) & 1) == 1) {
+                return false;
+            }
+            flag |= (1 << number);
+            max = Math.max(max, number);
+            min = Math.min(min, number);
+            if (max - min >= 5) {
+                return false;
+            }
+        }
+        return true;
     }
 }

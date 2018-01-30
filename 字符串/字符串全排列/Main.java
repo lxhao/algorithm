@@ -1,3 +1,5 @@
+package 字符串全排列;
+
 import java.util.*;
 
 public class Main {

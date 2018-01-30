@@ -28,7 +28,7 @@ public class HeapSort {
         }
 
         //堆顶元素肯定是最大的,每次拿掉堆顶元素,然后重新初始化堆
-        for (int i = list.size() - 1; i >= 0; i--) {
+        for (int i = list.size() - 1; i > 0; i--) {
             Collections.swap(list, 0, i);
             buildSort(list, 0, i - 1);
         }
