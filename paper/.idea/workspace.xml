@@ -2,48 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bdc1a79-8dfb-4b45-a666-90170d13cbf5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/BubbleSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/HeapSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/InsertSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/MergeSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/QuickSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test/SortTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../图/顶点覆盖/Graph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../图/顶点覆盖/MinVertexCover.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../校招笔试题目/第k大的数.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../牛客刷题/网易双核处理/Main.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../图拓扑排序/.Main.java.swp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../图拓扑排序/Main.java" afterPath="$PROJECT_DIR$/../图/图拓扑排序/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../树/树遍历/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../树/树遍历/TreeIter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../树/树遍历/TreeNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c++学习/linux_socket测试" afterPath="$PROJECT_DIR$/../c++学习/linux_socket测试" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gaft" afterPath="$PROJECT_DIR$/gaft" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../常见题目/状态机/fsmDemos" afterPath="$PROJECT_DIR$/../常见题目/状态机/fsmDemos" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/算法.iml" afterPath="$PROJECT_DIR$/../.idea/算法.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../input.txt" afterPath="$PROJECT_DIR$/../input.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SS-SVM实验/plot_separating_hyperplane_unbalanced.py" afterPath="$PROJECT_DIR$/SS-SVM实验/plot_separating_hyperplane_unbalanced.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/defectPrediction.py" afterPath="$PROJECT_DIR$/defectPrediction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gaft/examples/ex02/ex02.py" afterPath="$PROJECT_DIR$/gaft/examples/ex02/ex02.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gaft/gaft/analysis/fitness_store.py" afterPath="$PROJECT_DIR$/gaft/gaft/analysis/fitness_store.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gaft/gaft/components/population.py" afterPath="$PROJECT_DIR$/gaft/gaft/components/population.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gaft/gaft/engine.py" afterPath="$PROJECT_DIR$/gaft/gaft/engine.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gaft/gaft/plugin_interfaces/analysis.py" afterPath="$PROJECT_DIR$/gaft/gaft/plugin_interfaces/analysis.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matplot/CS_SVMVSCCS_SVM.py" afterPath="$PROJECT_DIR$/matplot/CS_SVMVSCCS_SVM.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matplot/featuresSelection.py" afterPath="$PROJECT_DIR$/matplot/featuresSelection.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plot_envolution_curve.py" afterPath="$PROJECT_DIR$/plot_envolution_curve.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../做题/Main.java" afterPath="$PROJECT_DIR$/../做题/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../做题/Solution.java" afterPath="$PROJECT_DIR$/../做题/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../做题/Template.java" afterPath="$PROJECT_DIR$/../做题/Template.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../字符串/Manacher找最长回文串/Manacher.java" afterPath="$PROJECT_DIR$/../字符串/Manacher找最长回文串/Manacher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../字符串/kmp/KmpMatcher.java" afterPath="$PROJECT_DIR$/../字符串/kmp/KmpMatcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../字符串/字符串全排列/Main.java" afterPath="$PROJECT_DIR$/../字符串/字符串全排列/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../字符串/字符串反转/Main.java" afterPath="$PROJECT_DIR$/../字符串/字符串反转/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../字符串/循环左移k位/Main.java" afterPath="$PROJECT_DIR$/../字符串/循环左移k位/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../字符串/最长公共子序列/Main.java" afterPath="$PROJECT_DIR$/../字符串/最长公共子序列/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../排序/HeapSort.java" afterPath="$PROJECT_DIR$/../排序/HeapSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../树/HuffmanTree.java" afterPath="$PROJECT_DIR$/../树/HuffmanTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../树/TestHuffmanTree.java" afterPath="$PROJECT_DIR$/../树/TestHuffmanTree.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,7 +40,7 @@
       <file leaf-file-name="pyplot.py" pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91252">
+            <state relative-caret-position="110806">
               <caret line="3309" column="4" lean-forward="false" selection-start-line="3309" selection-start-column="4" selection-end-line="3309" selection-end-column="4" />
               <folding />
             </state>
@@ -80,8 +50,8 @@
       <file leaf-file-name="plot_separating_hyperplane_unbalanced.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SS-SVM实验/plot_separating_hyperplane_unbalanced.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+            <state relative-caret-position="204">
+              <caret line="74" column="30" lean-forward="false" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
               <folding>
                 <element signature="e#836#860#0" expanded="true" />
               </folding>
@@ -92,7 +62,7 @@
       <file leaf-file-name="featuresSelection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/matplot/featuresSelection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
+            <state relative-caret-position="918">
               <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding />
             </state>
@@ -102,7 +72,7 @@
       <file leaf-file-name="CS_SVMVSCCS_SVM.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/matplot/CS_SVMVSCCS_SVM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
+            <state relative-caret-position="1156">
               <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
               <folding />
             </state>
@@ -112,7 +82,7 @@
       <file leaf-file-name="plot_envolution_curve.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plot_envolution_curve.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
+            <state relative-caret-position="1020">
               <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding />
             </state>
@@ -122,7 +92,7 @@
       <file leaf-file-name="best_fit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/best_fit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3388">
+            <state relative-caret-position="4114">
               <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding />
             </state>
@@ -132,7 +102,7 @@
       <file leaf-file-name="axes3d.py" pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python3.5/dist-packages/mpl_toolkits/mplot3d/axes3d.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41580">
+            <state relative-caret-position="50490">
               <caret line="1510" column="36" lean-forward="false" selection-start-line="1510" selection-start-column="36" selection-end-line="1510" selection-end-column="36" />
               <folding />
             </state>
@@ -142,7 +112,7 @@
       <file leaf-file-name="_axes.py" pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14028">
+            <state relative-caret-position="17034">
               <caret line="544" column="0" lean-forward="false" selection-start-line="544" selection-start-column="0" selection-end-line="544" selection-end-column="0" />
               <folding />
             </state>
@@ -215,7 +185,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -228,30 +198,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="paper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paper" type="462c0819:PsiDirectoryNode" />
-              <item name="SS-SVM实验" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -618,7 +565,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="10" y="-1" width="1602" height="909" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2892473" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -971,17 +918,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/mpl_toolkits/mplot3d/axes3d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41580">
-          <caret line="1510" column="36" lean-forward="false" selection-start-line="1510" selection-start-column="36" selection-end-line="1510" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/axes/_axes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14028">
+        <state relative-caret-position="17034">
           <caret line="544" column="0" lean-forward="false" selection-start-line="544" selection-start-column="0" selection-end-line="544" selection-end-column="0" />
           <folding />
         </state>
@@ -989,7 +928,7 @@
     </entry>
     <entry file="file:///usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91252">
+        <state relative-caret-position="110806">
           <caret line="3309" column="4" lean-forward="false" selection-start-line="3309" selection-start-column="4" selection-end-line="3309" selection-end-column="4" />
           <folding />
         </state>
@@ -997,7 +936,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/matplot/featuresSelection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
+        <state relative-caret-position="918">
           <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding />
         </state>
@@ -1005,7 +944,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/matplot/CS_SVMVSCCS_SVM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
+        <state relative-caret-position="1156">
           <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           <folding />
         </state>
@@ -1013,7 +952,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/best_fit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3388">
+        <state relative-caret-position="4114">
           <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding />
         </state>
@@ -1021,16 +960,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plot_envolution_curve.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
+        <state relative-caret-position="1020">
           <caret line="33" column="30" lean-forward="false" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/mpl_toolkits/mplot3d/axes3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50490">
+          <caret line="1510" column="36" lean-forward="false" selection-start-line="1510" selection-start-column="36" selection-end-line="1510" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SS-SVM实验/plot_separating_hyperplane_unbalanced.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        <state relative-caret-position="204">
+          <caret line="74" column="30" lean-forward="false" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
           <folding>
             <element signature="e#836#860#0" expanded="true" />
           </folding>
