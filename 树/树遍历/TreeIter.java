@@ -1,10 +1,37 @@
 package 树遍历;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class TreeIter<T> {
+
+    /**
+     * 层次遍历，用队列实现
+     *
+     * @param root
+     * @return
+     */
+    public List<T> levelOrder(TreeNode<T> root) {
+        List<T> res = new ArrayList<>();
+        if (root == null) {
+            return res;
+        }
+        Queue<TreeNode<T>> queue = new ArrayDeque<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode<T> node = queue.remove();
+                res.add(node.val);
+                if (node.left != null) {
+                    queue.add(node.left);
+                }
+                if (node.right != null) {
+                    queue.add(node.right);
+                }
+            }
+        }
+        return res;
+    }
 
     /**
      * 前序遍历非递归

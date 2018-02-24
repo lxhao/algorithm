@@ -23,5 +23,8 @@ public class Main {
 
         List<Integer> postOrder2 = treeIter.postOrder2(root);
         System.out.println(postOrder2);
+
+        List<Integer> levelOrder = treeIter.levelOrder(root);
+        System.out.println(levelOrder);
     }
 }
