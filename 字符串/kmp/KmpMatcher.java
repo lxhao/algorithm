@@ -56,17 +56,17 @@ public class KmpMatcher {
     private int[] getNext(String s) {
         int[] next = new int[s.length()];
         int len = s.length();
-        for (int q = 1, k = 0; q < len; ) {
-            if (s.charAt(k) == s.charAt(q)) {
-                k++;
-                System.out.printf("k%d,q%d\t", k, q);
-                next[q] = k;
-                q++;
-            } else if (k == 0) {
-                System.out.printf("k%d,q%d\t", k, q);
-                q++;
+        for (int nextPos = 1, prefixPos = 0; nextPos < len; ) {
+            if (s.charAt(prefixPos) == s.charAt(nextPos)) {
+                prefixPos++;
+                System.out.printf("k%d,q%d\t", prefixPos, nextPos);
+                next[nextPos] = prefixPos;
+                nextPos++;
+            } else if (prefixPos == 0) {
+                System.out.printf("k%d,q%d\t", prefixPos, nextPos);
+                nextPos++;
             } else {
-                k = next[k - 1];
+                prefixPos = next[prefixPos - 1];
             }
         }
         return next;

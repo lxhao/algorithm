@@ -61,14 +61,13 @@ public class Main {
         if (left < root.left || right > root.right) {
             throw new IllegalArgumentException();
         }
-        int queryMid = (left + right) >>> 1;
         int nodeMid = (root.left + root.right) >>> 1;
         if (right <= nodeMid) {
             return query(left, right, root.lChild);
         } else if (left >= nodeMid + 1) {
             return query(left, right, root.rChild);
         } else {
-            return query(left, queryMid, root) + query(queryMid + 1, right, root);
+            return query(left, nodeMid, root) + query(nodeMid + 1, right, root);
         }
     }
 }
