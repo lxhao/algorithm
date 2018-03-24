@@ -2,10 +2,15 @@ import java.util.*;
 
 public class Permutation {
    public static void main(String args[]) {
-       String s = "abc";
+       long startTime = System.currentTimeMillis();
+       String s = "1234567890";
        List<String> res = new ArrayList<>();
        permutation(s.toCharArray(), 0, res);
-       System.out.println(res);
+       for(String e : res) {
+           System.out.println(e);
+       }
+       long endTime = System.currentTimeMillis();
+       System.out.println((endTime - startTime) / 1000.0 / 60);
    }
 
    public static void permutation(char[] charArr, int start, List<String> res) {

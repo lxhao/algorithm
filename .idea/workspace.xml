@@ -5,19 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0caf29-d32d-47d4-b1cd-0fffff2a19fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/Hello.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/图/astar/AStar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/牛客刷题/挑战赛11场/白兔分身/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/牛客刷题/挑战赛11场/白兔的式子/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/树/Kruskal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/校招笔试题目/头条/第一题/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/校招笔试题目/头条/第三题/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/校招笔试题目/头条/第二题/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/牛客刷题/Wannafly12/T95要减肥/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/牛客刷题/Wannafly12/银行存款/Main.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/做题/Main.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c++学习/linux_socket测试" afterPath="$PROJECT_DIR$/c++学习/linux_socket测试" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paper/gaft" afterPath="$PROJECT_DIR$/paper/gaft" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/常见题目/状态机/fsmDemos" afterPath="$PROJECT_DIR$/常见题目/状态机/fsmDemos" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/算法.iml" afterPath="$PROJECT_DIR$/.idea/算法.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paper/.idea/workspace.xml" afterPath="$PROJECT_DIR$/paper/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/做题/Main.java" afterPath="$PROJECT_DIR$/做题/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/做题/Solution.java" afterPath="$PROJECT_DIR$/做题/Solution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paper/clusters.py" afterPath="$PROJECT_DIR$/paper/clusters.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/查找/二分查找/找大于元素的第一个位置/Main.java" afterPath="$PROJECT_DIR$/查找/二分查找/找大于元素的第一个位置/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/查找/二分查找/找小于元素的第一个位置/Main.java" afterPath="$PROJECT_DIR$/查找/二分查找/找小于元素的第一个位置/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/查找/二分查找/找等于元素的第一个位置/Main.java" afterPath="$PROJECT_DIR$/查找/二分查找/找等于元素的第一个位置/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/递归/排列组合/Permutation.java" afterPath="$PROJECT_DIR$/递归/排列组合/Permutation.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,38 +33,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input.txt">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/查找/二分查找/找小于元素的第一个位置/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="448">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/做题/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AStar.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/图/astar/AStar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="110" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -93,23 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/树/树遍历/TreeBuilder.java" />
-        <option value="$PROJECT_DIR$/树/树遍历/Main.java" />
-        <option value="$PROJECT_DIR$/树/树遍历/TreeIter.java" />
-        <option value="$PROJECT_DIR$/牛客刷题/不凡的夫夫_对数/Template.java" />
-        <option value="$PROJECT_DIR$/牛客刷题/三角形面积/Template.java" />
-        <option value="$PROJECT_DIR$/牛客刷题/三角形面积/Main.java" />
-        <option value="$PROJECT_DIR$/牛客刷题/大数加法/Template.java" />
-        <option value="$PROJECT_DIR$/牛客刷题/大数加法/Main.java" />
-        <option value="$PROJECT_DIR$/牛客刷题/不凡的夫夫_对数/Main.java" />
-        <option value="$PROJECT_DIR$/牛客刷题/线性同余/Template.java" />
-        <option value="$PROJECT_DIR$/牛客刷题/线性同余/Main.java" />
-        <option value="$PROJECT_DIR$/牛客刷题/圆圈/Template.java" />
-        <option value="$PROJECT_DIR$/牛客刷题/圆圈/Main.java" />
-        <option value="$PROJECT_DIR$/剑指offer/不用加减乘除做加法/Solution.java" />
-        <option value="$PROJECT_DIR$/牛客刷题/第四场/石油采集/Template.java" />
-        <option value="$PROJECT_DIR$/牛客刷题/第四场/Main.java" />
-        <option value="$PROJECT_DIR$/牛客刷题/第四场/石油采集/Main.java" />
         <option value="$PROJECT_DIR$/牛客刷题/第四场/全排列/Template.java" />
         <option value="$PROJECT_DIR$/牛客刷题/第四场/全排列/Main.java" />
         <option value="$PROJECT_DIR$/牛客刷题/第四场/道路建设/Template.java" />
@@ -141,9 +103,26 @@
         <option value="$PROJECT_DIR$/牛客刷题/挑战赛11场/白兔的式子/Main.java" />
         <option value="$PROJECT_DIR$/做题/Solution.java" />
         <option value="$PROJECT_DIR$/test/Hello.java" />
-        <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/做题/Main.java" />
         <option value="$PROJECT_DIR$/图/astar/AStar.java" />
+        <option value="$PROJECT_DIR$/树/AStar.java" />
+        <option value="$PROJECT_DIR$/树/Kruskal.java" />
+        <option value="$PROJECT_DIR$/牛客刷题/Wannafly12/Main.java" />
+        <option value="$PROJECT_DIR$/牛客刷题/Wannafly12/银行存款/Main.java" />
+        <option value="$PROJECT_DIR$/牛客刷题/Wannafly12/T95要减肥/Template.java" />
+        <option value="$PROJECT_DIR$/牛客刷题/Wannafly12/T95要减肥/Main.java" />
+        <option value="$PROJECT_DIR$/校招笔试题目/头条/Template.java" />
+        <option value="$PROJECT_DIR$/校招笔试题目/头条/第一题/Template.java" />
+        <option value="$PROJECT_DIR$/校招笔试题目/头条/第二题/Template.java" />
+        <option value="$PROJECT_DIR$/校招笔试题目/头条/第三题/Template.java" />
+        <option value="$PROJECT_DIR$/校招笔试题目/头条/第一题/Main.java" />
+        <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/校招笔试题目/头条/第三题/Main.java" />
+        <option value="$PROJECT_DIR$/校招笔试题目/头条/第四题/Main.java" />
+        <option value="$PROJECT_DIR$/校招笔试题目/头条/第二题/Main.java" />
+        <option value="$PROJECT_DIR$/查找/二分查找/找等于元素的第一个位置/Main.java" />
+        <option value="$PROJECT_DIR$/查找/二分查找/找大于元素的第一个位置/Main.java" />
+        <option value="$PROJECT_DIR$/查找/二分查找/找小于元素的第一个位置/Main.java" />
       </list>
     </option>
   </component>
@@ -171,14 +150,14 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource PackagesPane="false" />
-      <autoscrollFromSource PackagesPane="true" ProjectPane="false" />
+      <autoscrollFromSource PackagesPane="true" ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,14 +168,61 @@
             <path>
               <item name="算法" type="b2602c69:ProjectViewProjectNode" />
               <item name="算法" type="462c0819:PsiDirectoryNode" />
+              <item name="leedcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="算法" type="b2602c69:ProjectViewProjectNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
               <item name="做题" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="算法" type="b2602c69:ProjectViewProjectNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
+              <item name="查找" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="算法" type="b2602c69:ProjectViewProjectNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
+              <item name="查找" type="462c0819:PsiDirectoryNode" />
+              <item name="二分查找" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="算法" type="b2602c69:ProjectViewProjectNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
+              <item name="查找" type="462c0819:PsiDirectoryNode" />
+              <item name="二分查找" type="462c0819:PsiDirectoryNode" />
+              <item name="找大于元素的第一个位置" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="算法" type="b2602c69:ProjectViewProjectNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
+              <item name="查找" type="462c0819:PsiDirectoryNode" />
+              <item name="二分查找" type="462c0819:PsiDirectoryNode" />
+              <item name="找小于元素的第一个位置" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="算法" type="b2602c69:ProjectViewProjectNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
+              <item name="查找" type="462c0819:PsiDirectoryNode" />
+              <item name="二分查找" type="462c0819:PsiDirectoryNode" />
+              <item name="找等于元素的第一个位置" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="算法" type="b2602c69:ProjectViewProjectNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
+              <item name="牛客刷题" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="算法" type="b2602c69:ProjectViewProjectNode" />
+              <item name="算法" type="462c0819:PsiDirectoryNode" />
+              <item name="递归" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,13 +239,18 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/树" />
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="头条.第四题" />
+      <recent name="头条.第二题" />
+      <recent name="头条.第三题" />
+      <recent name="头条.第一题" />
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -239,15 +270,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AStar">
-    <configuration name="AStar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="astar.*" />
+          <option name="PATTERN" value="头条.第二题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="astar.AStar" />
+      <option name="MAIN_CLASS_NAME" value="头条.第二题.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -259,9 +290,14 @@
       <module name="算法" />
       <envs />
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="二分查找.找小于元素的第一个位置.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="二分查找.找小于元素的第一个位置.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -274,8 +310,13 @@
       <envs />
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="头条.第一题.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="头条.第一题.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -287,14 +328,33 @@
       <module name="算法" />
       <envs />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="挑战赛11场.白兔的式子.*" />
+          <option name="PATTERN" value="头条.第三题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="挑战赛11场.白兔的式子.Main" />
+      <option name="MAIN_CLASS_NAME" value="头条.第三题.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="算法" />
+      <envs />
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="二分查找.找大于元素的第一个位置.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="二分查找.找大于元素的第一个位置.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -401,34 +461,6 @@
       <module name="算法" />
       <envs />
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Solution" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="算法" />
-      <envs />
-    </configuration>
-    <configuration name="Template" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Template" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="算法" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -510,19 +542,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Template" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Solution" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AStar" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main (3)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main (4)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main (5)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AStar" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Solution" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Template" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main (5)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main (4)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -629,32 +661,35 @@
       <workItem from="1521030074725" duration="3109000" />
       <workItem from="1521163233521" duration="605000" />
       <workItem from="1521181075605" duration="1433000" />
-      <workItem from="1521359800653" duration="7682000" />
+      <workItem from="1521359800653" duration="7819000" />
+      <workItem from="1521373604734" duration="4706000" />
+      <workItem from="1521805943193" duration="4572000" />
+      <workItem from="1521888789744" duration="9475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="429268000" />
+    <option name="totallyTimeSpent" value="448158000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1600" y="-5" width="1600" height="905" extended-state="6" />
+    <frame x="1496" y="30" width="1602" height="906" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252688" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32258064" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.766129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.76478493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6680108" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.303125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -690,15 +725,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39112905" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252688" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32258064" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.766129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.76478493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6680108" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.303125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -726,125 +761,11 @@
           <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="137" />
+      <option name="time" value="153" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="235" column="20" lean-forward="false" selection-start-line="235" selection-start-column="20" selection-end-line="235" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="319" column="12" lean-forward="false" selection-start-line="319" selection-start-column="12" selection-end-line="319" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="618" column="17" lean-forward="false" selection-start-line="618" selection-start-column="17" selection-end-line="618" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/牛客刷题/第四场/通知小弟/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/牛客刷题/第五场/逆序对/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/知识点/线段树/Template.java" />
-    <entry file="file://$PROJECT_DIR$/知识点/优先队列实现/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="105" column="12" lean-forward="false" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/知识点/线段树/区间求和/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/牛客刷题/第五场/区间求和/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="99" column="30" lean-forward="false" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/知识点/树状数组/BinaryIndexTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="1766" column="48" lean-forward="false" selection-start-line="1766" selection-start-column="48" selection-end-line="1766" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/字符串/kmp/KmpMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="1058" column="0" lean-forward="true" selection-start-line="1058" selection-start-column="0" selection-end-line="1058" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/AbstractStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="406" column="22" lean-forward="false" selection-start-line="406" selection-start-column="22" selection-end-line="406" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="75" column="17" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/牛客刷题/第五场/字符串的问题/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/牛客刷题/第五场/集合问题/Main.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -908,13 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/查找/二分查找/找等于元素的第一个位置/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/查找/二分查找/找等于元素的第一个位置/Main.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -936,31 +850,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/牛客刷题/第五场/电灯泡/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/牛客刷题/第五场/电灯泡/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/牛客刷题/挑战赛11场/白兔分身/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/查找/二分查找/找小于元素的第一个位置/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1020,38 +913,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/牛客刷题/第四场/道路建设/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/Hello.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="333" column="19" lean-forward="false" selection-start-line="333" selection-start-column="19" selection-end-line="333" selection-end-column="19" />
-          <folding>
-            <element signature="e#13000#13001#0" expanded="false" />
-            <element signature="e#13056#13057#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/做题/Template.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,37 +924,236 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图/astar/AStar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牛客刷题/第四场/石油采集/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牛客刷题/第五场/电灯泡/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牛客刷题/第五场/电灯泡/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牛客刷题/第五场/字符串的问题/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牛客刷题/第四场/求交集/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牛客刷题/第四场/通知小弟/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牛客刷题/第四场/道路建设/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="39" column="15" lean-forward="true" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="586" column="13" lean-forward="false" selection-start-line="586" selection-start-column="13" selection-end-line="586" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牛客刷题/Wannafly12/T.java" />
+    <entry file="file://$PROJECT_DIR$/树/Kruskal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="92" column="12" lean-forward="false" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牛客刷题/Wannafly12/银行存款/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/做题/Template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/校招笔试题目/头条/Template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/牛客刷题/Wannafly12/T95要减肥/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/校招笔试题目/头条/第一题/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常见题目/求后续表达式的值/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding>
+            <element signature="e#2371#2372#0" expanded="false" />
+            <element signature="e#2428#2429#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常见题目/求后续表达式的值/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常见题目/求后续表达式的值/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-836">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/校招笔试题目/头条/第三题/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="209" column="38" lean-forward="true" selection-start-line="209" selection-start-column="38" selection-end-line="209" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5731#5732#0" expanded="true" />
+            <element signature="e#5773#5774#0" expanded="true" />
+            <element signature="e#5870#5871#0" expanded="true" />
+            <element signature="e#5912#5913#0" expanded="true" />
+            <element signature="e#6012#6013#0" expanded="true" />
+            <element signature="e#6054#6055#0" expanded="true" />
+            <element signature="e#6152#6153#0" expanded="true" />
+            <element signature="e#6194#6195#0" expanded="true" />
+            <element signature="e#6290#6291#0" expanded="true" />
+            <element signature="e#6322#6323#0" expanded="true" />
+            <element signature="e#6769#6770#0" expanded="true" />
+            <element signature="e#6800#6801#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="84">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/校招笔试题目/头条/第二题/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/校招笔试题目/头条/第四题/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/做题/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/图/astar/AStar.java">
+    <entry file="file://$PROJECT_DIR$/查找/二分查找/找等于元素的第一个位置/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="110" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查找/二分查找/找大于元素的第一个位置/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查找/二分查找/找小于元素的第一个位置/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1134,7 +1198,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>jdk_1.8</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

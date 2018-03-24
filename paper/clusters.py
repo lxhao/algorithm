@@ -2,6 +2,7 @@
 # -*- coding:utf-8 -*-
 # 根据多数类和少数类的比例聚类,比如多数类和少数类的比例是10:1，则聚类成10份
 from sklearn.cluster import KMeans
+from sklearn.cluster import affinity_propagation_
 
 
 def cluster(x, y, label):

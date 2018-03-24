@@ -1,3 +1,5 @@
+package 二分查找.找等于元素的第一个位置;
+
 import java.util.*;
 
 public class Main {
@@ -30,7 +32,7 @@ public class Main {
         int mid;
 
         while(low < high) {
-            mid = (low + high) / 2;
+            mid = (low + high) >>> 1;
             if(numbers.get(mid) > e) {
                 high = mid - 1;
             } else if(numbers.get(mid) < e) {

@@ -1,3 +1,5 @@
+package 二分查找.找大于元素的第一个位置;
+
 import java.util.*;
 
 public class Main {
@@ -24,22 +26,22 @@ public class Main {
     }
 
     /**
-     * 返回大于元素e的第一个位置，如果最后一个元素等于e，则返回最后一个位置
+     * 返回大于元素e的第一个位置
      */
     public static int find(List<Integer> numbers, int start, int end, int e) {
-        int low  = start;
+        int low = start;
         int high = end;
         int mid;
 
-        while(low <= high) {
-            mid = (low + high) / 2;
-            if(numbers.get(mid) <= e) {
+        while (low < high) {
+            mid = (low + high) >>> 1;
+            if (numbers.get(mid) <= e) {
                 low = mid + 1;
             } else {
-                high = mid - 1;
+                high = mid;
             }
         }
-        return low == numbers.size() ? low - 1 : low;
+        return numbers.get(low) > e ? low : -1;
     }
 }
 
