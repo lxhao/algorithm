@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/做题" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/剑指offer" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/树" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/校招笔试题目" isTestSource="false" />
@@ -12,7 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/图" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/知识点" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/查找" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/leedcode" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/c++学习" />
     </content>
     <orderEntry type="inheritedJdk" />

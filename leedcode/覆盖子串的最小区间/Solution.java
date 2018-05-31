@@ -1,3 +1,5 @@
+package 覆盖子串的最小区间;
+
 /**
  * 1. Use two pointers: start and end to represent a window.
  * 2. Move end to find a valid window.

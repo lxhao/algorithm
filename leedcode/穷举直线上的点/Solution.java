@@ -1,3 +1,5 @@
+package 穷举直线上的点;
+
 import java.util.HashMap;
 import java.util.Map;
 

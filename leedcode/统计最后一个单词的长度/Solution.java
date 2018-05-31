@@ -1,4 +1,6 @@
-dfmport java.io.FileInputStream;
+package 统计最后一个单词的长度;
+
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;

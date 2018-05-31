@@ -8,33 +8,33 @@ public class Kruskal {
 
     class UnionSet {
         int n;
-        int[] members;
+        int[] parent;
 
         UnionSet(int n) {
             this.n = n;
-            this.members = new int[n + 1];
+            this.parent = new int[n + 1];
             for (int i = 1; i <= n; i++) {
-                members[i] = i;
+                parent[i] = i;
             }
         }
 
         void union(int e1, int e2) {
             int e1Root = find(e1);
             int e2Root = find(e2);
-            members[e1Root] = e2Root;
+            parent[e1Root] = e2Root;
 
         }
 
         int find(int e) {
             int root = e;
-            while (members[root] != root) {
-                root = members[root];
+            while (parent[root] != root) {
+                root = parent[root];
             }
 
             // union find with path compression
-            while (members[e] != root) {
-                members[e] = root;
-                e = members[e];
+            while (parent[e] != root) {
+                parent[e] = root;
+                e = parent[e];
             }
             return root;
         }

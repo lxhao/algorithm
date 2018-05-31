@@ -31,21 +31,31 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import svm
 
+# Set the font dictionaries (for plot title and axis titles)
+title_font = {'fontname': 'SimHei', 'size': '16', 'color': 'black',
+              'weight': 'normal',
+              'verticalalignment': 'bottom'}  # Bottom vertical alignment for more space
+axis_font = {'fontname': 'SimHei', 'size': '14'}
+
+mpl.rcParams['font.sans-serif'] = [u'SimHei']
+mpl.rcParams['axes.unicode_minus'] = False
+plt.figure(figsize=(6, 6), dpi=300)
+
 # we create 40 separable points
 rng = np.random.RandomState(0)
 n_samples_1 = 10
 n_samples_2 = 10
-X = np.r_[1.5 * rng.randn(n_samples_1, 2),
+X = np.r_[0.5 * rng.randn(n_samples_1, 2),
           0.5 * rng.randn(n_samples_2, 2) + [2, 2]]
 y = [0] * n_samples_1 + [1] * n_samples_2
 color = [125] * n_samples_1 + ['w'] * n_samples_2
 
 # fit the model and get the separating hyperplane
-clf = svm.SVC(kernel='linear', C=1.0)
+clf = svm.SVC(kernel='linear', C=10.0)
 clf.fit(X, y)
 
 # fit the model and get the separating hyperplane using weighted classes
-wclf = svm.SVC(kernel='linear', class_weight={1: 10})
+wclf = svm.SVC(kernel='linear', class_weight={1: 2})
 wclf.fit(X, y)
 
 # plot separating hyperplanes and samples
@@ -67,7 +77,8 @@ xy = np.vstack([XX.ravel(), YY.ravel()]).T
 Z = clf.decision_function(xy).reshape(XX.shape)
 
 # plot decision boundary and margins
-a = ax.contour(XX, YY, Z, colors='k', levels=[0], alpha=0.5, linestyles=['dashed'])
+a = ax.contour(XX, YY, Z, colors='k', levels=[0], alpha=0.5,
+               linestyles=['-'])
 
 # get the separating hyperplane for weighted classes
 Z = wclf.decision_function(xy).reshape(XX.shape)
@@ -76,8 +87,5 @@ mpl.rcParams['font.sans-serif'] = [u'simHei']
 mpl.rcParams['axes.unicode_minus'] = False
 # plot decision boundary and margins for weighted classes
 b = ax.contour(XX, YY, Z, colors='k', levels=[0], alpha=0.5,
-               linestyles=['-'])
-
-plt.legend([a.collections[0], b.collections[0]], ["标准SVM", "加大少数类误分类代价"],
-           loc="best")
+               linestyles=['dashed'])
 plt.show()

@@ -1,3 +1,5 @@
+package 骰子之和;
+
 import java.util.*;
 
 public class Main {

@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paper/gaft" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/动态规划/数组分块平方和最小" vcs="Git" />
   </component>
 </project>

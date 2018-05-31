@@ -1,3 +1,5 @@
+package 数组去重;
+
 public class Main {
     public static void main(String args[]) {
         int[] A = {1, 3, 3, 3};

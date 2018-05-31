@@ -318,7 +318,7 @@ def search(dataSetName, x, y):
 
   engine.fitness_register(gmeanFitness)
   engine.dynamic_linear_scaling(target='max', ksi0=0.5, r=0.9)
-  engine.run(ng=10)
+  engine.run(ng=100)
 
 
 def getFileName():
