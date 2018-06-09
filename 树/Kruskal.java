@@ -6,11 +6,11 @@ import java.util.*;
 
 public class Kruskal {
 
-    class UnionSet {
+    class UnionFind {
         int n;
         int[] parent;
 
-        UnionSet(int n) {
+        UnionFind(int n) {
             this.n = n;
             this.parent = new int[n + 1];
             for (int i = 1; i <= n; i++) {
@@ -84,15 +84,15 @@ public class Kruskal {
     }
 
     private long minTree(int verticesNum, PriorityQueue<Edge> edges) {
-        UnionSet unionSet = new UnionSet(verticesNum);
+        UnionFind unionFind = new UnionFind(verticesNum);
         long ans = 0;
         while (!edges.isEmpty()) {
             Edge next = edges.poll();
-            if (unionSet.isConnected(next.from, next.to)) {
+            if (unionFind.isConnected(next.from, next.to)) {
                 continue;
             }
             ans += next.cost;
-            unionSet.union(next.from, next.to);
+            unionFind.union(next.from, next.to);
         }
         return ans;
     }

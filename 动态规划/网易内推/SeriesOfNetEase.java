@@ -39,8 +39,6 @@ public class SeriesOfNetEase {
                  * j == 1时需要计算n次
                  * j == 2时需要计算n / 2次
                  * j == 3时需要计算n / 3次
-                 * ....
-                 * 求大神指点这个复杂度怎么算
                  */
                 for (int z = j + j; z <= k; z += j) {
                     dp[i][j] = (dp[i][j] - dp[i - 1][z] + MAX_VALUE) % MAX_VALUE;

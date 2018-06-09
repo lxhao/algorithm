@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/知识点" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/leedcode" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/算法比赛" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/c++学习" />
     </content>
     <orderEntry type="inheritedJdk" />
