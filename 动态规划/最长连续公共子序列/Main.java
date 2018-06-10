@@ -1,3 +1,5 @@
+package 最长连续公共子序列;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;

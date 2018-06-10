@@ -1,3 +1,5 @@
+package 股票收益;
+
 import java.util.*;
 
 public class Main {

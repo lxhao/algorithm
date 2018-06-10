@@ -1,3 +1,5 @@
+package 三角形求路径和最下;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;

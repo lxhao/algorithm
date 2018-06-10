@@ -1,3 +1,5 @@
+package 网易内推;
+
 import java.util.Arrays;
 import java.util.Scanner;
 /**

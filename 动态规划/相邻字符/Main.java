@@ -1,3 +1,4 @@
+package 相邻字符;
 
 import java.util.Arrays;
 

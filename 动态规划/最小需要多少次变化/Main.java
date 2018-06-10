@@ -1,3 +1,5 @@
+package 最小需要多少次变化;
+
 import java.util.*;
 
 /**

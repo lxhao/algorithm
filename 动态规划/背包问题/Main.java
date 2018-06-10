@@ -1,3 +1,5 @@
+package 背包问题;
+
 import java.util.*;
 
 public class Main {
