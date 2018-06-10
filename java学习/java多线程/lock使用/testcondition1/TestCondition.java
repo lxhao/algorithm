@@ -1,4 +1,5 @@
-import java.util.*;
+package java多线程.lock使用.testcondition1;
+
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.Condition;

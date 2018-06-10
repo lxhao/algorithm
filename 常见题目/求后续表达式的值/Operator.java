@@ -1,3 +1,5 @@
+package 求后续表达式的值;
+
 public enum Operator {
     PLUS("+") {
         @Override

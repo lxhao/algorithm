@@ -1,3 +1,5 @@
+package 单例;
+
 import java.io.FileInputStream;
 
 public class MyClassLoader extends ClassLoader {

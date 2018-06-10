@@ -1,3 +1,4 @@
+package 数独;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

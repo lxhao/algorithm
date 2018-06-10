@@ -1,3 +1,5 @@
+package 排列组合;
+
 public class Test {
     private static int i;
 

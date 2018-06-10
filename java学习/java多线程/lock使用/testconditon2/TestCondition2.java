@@ -1,7 +1,8 @@
-import java.util.*;
+package java多线程.lock使用.testconditon2;
+
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-import java.util.concurrent.locks.Condition;
 
 public class TestCondition2 {
     public static void main(String args[]) {

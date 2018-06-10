@@ -1,3 +1,5 @@
+package jvm垃圾收集器和内存分配策略;
+
 import java.util.*;
 
 public class TestGC {

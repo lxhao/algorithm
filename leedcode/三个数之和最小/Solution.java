@@ -1,3 +1,4 @@
+package 三个数之和最小;
 
 import java.util.Arrays;
 

@@ -1,3 +1,5 @@
+package 计算数组最大间隔;
+
 import java.util.*;
 
 public class Main {

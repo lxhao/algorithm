@@ -1,3 +1,5 @@
+package 单例;
+
 import java.io.*;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

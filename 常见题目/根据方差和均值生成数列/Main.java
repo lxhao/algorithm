@@ -1,3 +1,5 @@
+package 根据方差和均值生成数列;
+
 import java.util.*;
 
 public class Main {
