@@ -9,13 +9,19 @@
       <sourceFolder url="file://$MODULE_DIR$/牛客刷题" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/字符串" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/图" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/测试" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/知识点" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/leedcode" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/算法比赛" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/动态规划" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/搜索" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hash" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/排序" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/常见题目" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/递归" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/数组" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/查找" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java学习" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/c++学习" />
     </content>
     <orderEntry type="inheritedJdk" />

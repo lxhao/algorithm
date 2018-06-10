@@ -1,3 +1,5 @@
+package jvm内存溢出测试;
+
 import java.util.*;
 import java.lang.reflect.*;
 import sun.misc.Unsafe;

@@ -1,3 +1,5 @@
+package cpu运行速度;
+
 import java.util.*;
 import java.math.*;
 

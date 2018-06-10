@@ -1,4 +1,4 @@
-package 线段树.区间求和;
+package 区间求和;
 
 public class Main {
     static class TreeNode {
