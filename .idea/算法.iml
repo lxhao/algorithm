@@ -19,11 +19,12 @@
       <sourceFolder url="file://$MODULE_DIR$/排序" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/常见题目" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/递归" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/数组" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/线性表" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/查找" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/java学习" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/拼想象力的题目" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/数学" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/位运算" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/c++学习" />
     </content>
     <orderEntry type="inheritedJdk" />

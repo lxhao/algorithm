@@ -1,3 +1,5 @@
+package 排列组合;
+
 import java.util.*;
 
 public class Combination {

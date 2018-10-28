@@ -8,6 +8,10 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * https://www.nowcoder.com/practice/b698e67a2f5b450a824527e82ed7495d?tpId=85&tqId=29837&rp=1&ru=%2Fta%2F2017test&qru=%2Fta%2F2017test%2Fquestion-ranking&tPage=1
+ */
+
 public class Main {
 
     public static void main(String[] args) throws IOException {
