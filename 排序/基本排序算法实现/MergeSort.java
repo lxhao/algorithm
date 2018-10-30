@@ -20,6 +20,7 @@ public class MergeSort {
         sort(list, startPos, mid, tmp);
         sort(list, mid + 1, endPos, tmp);
         merge(list, startPos, endPos, tmp);
+        System.out.printf("the %dth iteration: %s\n", 0, list);
     }
 
     private static <T extends Comparable<? super T>> void merge(List<T> list, int left, int right, Object[] tmp) {

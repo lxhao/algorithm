@@ -6,34 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="6e0caf29-d32d-47d4-b1cd-0fffff2a19fa" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paper/SS-SVM实验/svmDemo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/位运算/混合燃料/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/动态规划/DecodeWays/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/动态规划/DecodeWaysII/Solution.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/动态规划/数组分块平方和最小/Divide.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/动态规划/数组分块平方和最小/data2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/拼想象力的题目/幸运的袋子/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/排序/链表归并排序/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/排序/链表插入排序/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/搜索/平面内同一直线上的最大点数/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/树/前续遍历输出/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/树/后续遍历输出/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/线性表/判断链表是否存在环/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/线性表/链表反转/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/线性表/链表环入口节点/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/递归/ZumaGame/Solution.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/数组/计算数组最大间隔/Main.java" afterPath="$PROJECT_DIR$/线性表/计算数组最大间隔/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c++学习/linux_socket测试" afterPath="$PROJECT_DIR$/c++学习/linux_socket测试" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paper/gaft" afterPath="$PROJECT_DIR$/paper/gaft" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/算法.iml" afterPath="$PROJECT_DIR$/.idea/算法.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paper/SS-SVM实验/plot_separating_hyperplane_unbalanced.py" afterPath="$PROJECT_DIR$/paper/SS-SVM实验/plot_separating_hyperplane_unbalanced.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paper/clusters.py" afterPath="$PROJECT_DIR$/paper/clusters.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paper/defectPrediction.py" afterPath="$PROJECT_DIR$/paper/defectPrediction.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paper/matplot/CS_SVMVSCCS_SVM.py" afterPath="$PROJECT_DIR$/paper/matplot/CS_SVMVSCCS_SVM.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paper/matplot/featuresSelection.py" afterPath="$PROJECT_DIR$/paper/matplot/featuresSelection.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paper/plot_envolution_curve.py" afterPath="$PROJECT_DIR$/paper/plot_envolution_curve.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/递归/排列组合/Combination.java" afterPath="$PROJECT_DIR$/递归/排列组合/Combination.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/递归/数列还原/Main.java" afterPath="$PROJECT_DIR$/递归/数列还原/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/基本排序算法实现/BubbleSort.java" afterPath="$PROJECT_DIR$/排序/基本排序算法实现/BubbleSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/基本排序算法实现/InsertSort.java" afterPath="$PROJECT_DIR$/排序/基本排序算法实现/InsertSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/基本排序算法实现/Main.java" afterPath="$PROJECT_DIR$/排序/基本排序算法实现/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/基本排序算法实现/MergeSort.java" afterPath="$PROJECT_DIR$/排序/基本排序算法实现/MergeSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/基本排序算法实现/QuickSort.java" afterPath="$PROJECT_DIR$/排序/基本排序算法实现/QuickSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序/基本排序算法实现/SelectSort.java" afterPath="$PROJECT_DIR$/排序/基本排序算法实现/SelectSort.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,51 +37,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/线性表/链表环入口节点/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/线性表/判断链表是否存在环/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="27" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/排序/基本排序算法实现/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="196">
+              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/排序/基本排序算法实现/SelectSort.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/排序/基本排序算法实现/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/排序/基本排序算法实现/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="588">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,18 +60,8 @@
       <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/排序/基本排序算法实现/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/排序/基本排序算法实现/InsertSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="336">
+              <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -149,12 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/数组/计算数组最大间隔/Main.java" />
-        <option value="$PROJECT_DIR$/查找/找第k大的数/Main.java" />
-        <option value="$PROJECT_DIR$/java学习/java多线程/多线程交替执行/Main.java" />
-        <option value="$PROJECT_DIR$/java学习/jvm垃圾收集器和内存分配策略/TestGC.java" />
-        <option value="$PROJECT_DIR$/java学习/单例/EnumSingleton.java" />
-        <option value="$PROJECT_DIR$/java学习/单例/HungrySingleton.java" />
         <option value="$PROJECT_DIR$/java学习/单例/LazySingleton.java" />
         <option value="$PROJECT_DIR$/java学习/单例/DbCheckSingleton.java" />
         <option value="$PROJECT_DIR$/java学习/单例/MyClassLoader.java" />
@@ -200,6 +142,12 @@
         <option value="$PROJECT_DIR$/线性表/链表反转/Solution.java" />
         <option value="$PROJECT_DIR$/线性表/链表环入口节点/Solution.java" />
         <option value="$PROJECT_DIR$/线性表/判断链表是否存在环/Solution.java" />
+        <option value="$PROJECT_DIR$/排序/基本排序算法实现/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/排序/基本排序算法实现/InsertSort.java" />
+        <option value="$PROJECT_DIR$/排序/基本排序算法实现/SelectSort.java" />
+        <option value="$PROJECT_DIR$/排序/基本排序算法实现/QuickSort.java" />
+        <option value="$PROJECT_DIR$/排序/基本排序算法实现/MergeSort.java" />
+        <option value="$PROJECT_DIR$/排序/基本排序算法实现/Main.java" />
       </list>
     </option>
   </component>
@@ -308,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -317,6 +265,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="混合燃料.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="算法" />
+      <envs />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="基本排序算法实现.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="基本排序算法实现.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -374,25 +341,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="链表环入口节点.Solution" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="算法" />
-      <envs />
-    </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="链表插入排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="链表插入排序.Solution" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -504,19 +452,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Solution (5)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Solution" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Solution (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Solution (2)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Solution (3)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Solution" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Solution (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Solution (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Solution (3)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Solution (3)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Solution (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Solution (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Solution" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Solution (5)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Solution (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Solution (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Solution (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -643,12 +591,12 @@
       <workItem from="1529024558056" duration="1967000" />
       <workItem from="1529893662117" duration="17044000" />
       <workItem from="1530414007838" duration="2046000" />
-      <workItem from="1540616056314" duration="16107000" />
+      <workItem from="1540616056314" duration="20755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="559539000" />
+    <option name="totallyTimeSpent" value="564187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1922" height="1089" extended-state="6" />
@@ -665,10 +613,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.76375407" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6680108" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6677454" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.303125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.303125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32392472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -711,10 +659,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.76375407" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.76375407" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6680108" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.303125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6677454" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.303125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32392472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -741,20 +689,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/常见题目/素数/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/常见题目/根据方差和均值生成数列/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/常见题目/求表达式的值/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1060,14 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/线性表/链表环入口节点/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/线性表/判断链表是否存在环/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
@@ -1076,34 +1002,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/排序/基本排序算法实现/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/线性表/链表环入口节点/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="504">
+          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="103" column="11" lean-forward="false" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+          <folding>
+            <element signature="e#3504#3505#0" expanded="false" />
+            <element signature="e#3562#3563#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/排序/基本排序算法实现/SelectSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="495">
+          <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/排序/基本排序算法实现/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/基本排序算法实现/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="616">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1111,7 +1040,31 @@
     <entry file="file://$PROJECT_DIR$/排序/基本排序算法实现/InsertSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/基本排序算法实现/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/基本排序算法实现/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/基本排序算法实现/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>

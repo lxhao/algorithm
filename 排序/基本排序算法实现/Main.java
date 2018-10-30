@@ -12,7 +12,36 @@ public class Main {
     public static void main(String[] args) {
         Main main = new Main();
 //        main.testNlognSort();
-        main.testN2Sort();
+//        main.testN2Sort();
+        main.testPrintDetail();
+    }
+
+    private void testPrintDetail() {
+        List<Integer> list = new ArrayList<>();
+        Random rnd = new Random(1);
+        for (int i = 0; i < 8; i++) {
+            list.add(rnd.nextInt(50));
+        }
+
+        System.out.println("bubble sort");
+        System.out.println("randomly generated array:\n" + list);
+        BubbleSort.sort(new ArrayList<>(list));
+
+        System.out.println("insert sort");
+        System.out.println("randomly generated array:\n" + list);
+        InsertSort.sort(new ArrayList<>(list));
+
+        System.out.println("select sort");
+        System.out.println("randomly generated array:\n" + list);
+        SelectSort.sort(new ArrayList<>(list));
+
+        System.out.println("quick sort");
+        System.out.println("randomly generated array:\n" + list);
+        QuickSort.sort(new ArrayList<>(list));
+
+        System.out.println("merge sort");
+        System.out.println("randomly generated array:\n" + list);
+        MergeSort.sort(new ArrayList<>(list));
     }
 
     //测试n^2复杂度的排序算法

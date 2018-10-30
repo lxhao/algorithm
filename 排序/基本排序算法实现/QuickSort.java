@@ -17,10 +17,10 @@ public class QuickSort {
         if (list == null || list.size() == 0) {
             return;
         }
-        sort(list, 0, list.size() - 1);
+        sort(list, 0, list.size() - 1, 1);
     }
 
-    public static <T extends Comparable<? super T>> void sort(List<T> list, int start, int end) {
+    public static <T extends Comparable<? super T>> void sort(List<T> list, int start, int end, int cnt) {
         if (end <= start) {
             return;
         }
@@ -28,8 +28,8 @@ public class QuickSort {
         int right = end;
 
         //随机挑选一个位置作为基准数, 自己做测试证明随机交换位置能提升性能
-        int randomPos = random.nextInt(end - start + 1) + start;
-        Collections.swap(list, left, randomPos);
+//        int randomPos = random.nextInt(end - start + 1) + start;
+//        Collections.swap(list, left, randomPos);
 
         //基准数
         T tmp = list.get(left);
@@ -51,7 +51,8 @@ public class QuickSort {
         }
         //基准数放中间
         list.set(left, tmp);
-        sort(list, start, left - 1);
-        sort(list, left + 1, end);
+        System.out.printf("the %dth iteration: %s\n", cnt, list);
+        sort(list, start, left - 1, cnt + 1);
+        sort(list, left + 1, end, cnt + 1);
     }
 }
