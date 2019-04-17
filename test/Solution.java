@@ -1,6 +1,5 @@
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(new Solution().replaceSpace(new StringBuffer("we are happy")));
     }
 
     public String replaceSpace(StringBuffer str) {

@@ -25,6 +25,7 @@
       <sourceFolder url="file://$MODULE_DIR$/拼想象力的题目" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/数学" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/位运算" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/贪心" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/c++学习" />
     </content>
     <orderEntry type="inheritedJdk" />

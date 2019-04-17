@@ -38,6 +38,7 @@ public class Main {
         System.out.println("quick sort");
         System.out.println("randomly generated array:\n" + list);
         QuickSort.sort(new ArrayList<>(list));
+        QuickSort.sort(list);
 
         System.out.println("merge sort");
         System.out.println("randomly generated array:\n" + list);

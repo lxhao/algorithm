@@ -1,55 +1,44 @@
-package 句子拆分2.句子拆分;
+package 句子拆分2;
 
-import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 public class Solution {
-    private ArrayList<String> getSentences(List<ArrayList<String>> dp, int pos) {
-        ArrayList<String> res = new ArrayList<>();
-        for (String word : dp.get(pos)) {
-            // 到达第一个单词
-            if (pos - word.length() == 0) {
-                res.add(word);
-                continue;
-            }
-            // 前面单词拼成的句子
-            ArrayList<String> preSentence = getSentences(dp, pos - word.length());
-            for (String sentence : preSentence) {
-                res.add(sentence + " " + word);
-            }
-        }
-        return res;
+    public boolean wordBreak(String s, Set<String> dict) {
+        return wordBreak(s, dict, new HashMap<>());
     }
 
-    public ArrayList<String> wordBreak(String s, Set<String> dict) {
-        List<ArrayList<String>> dp = new ArrayList<>(s.length() + 1);
-        for (int i = 0; i < s.length() + 1; i++) {
-            dp.add(new ArrayList<>());
+    public boolean wordBreak(String s, Set<String> dict, HashMap<String, Boolean> res) {
+        if (s.length() == 0) {
+            return true;
+        }
+        if (res.containsKey(s)) {
+
+            return res.get(s);
         }
 
-        for (int i = 1; i <= s.length(); i++) {
-            for (int j = i; j >= 0 && i - j < 20; j--) {
-                String subStr = s.substring(j, i);
-                if (dict.contains(subStr)) {
-                    dp.get(i).add(subStr);
+        for (int i = 0; i < s.length(); i++) {
+            String subStr = s.substring(0, i + 1);
+            if (dict.contains(subStr)) {
+                if (wordBreak(s.substring(i + 1), dict, res)) {
+                    res.put(s, true);
+                    return true;
                 }
             }
         }
-        return getSentences(dp, s.length());
+        res.put(s, false);
+        return false;
     }
-
 
     public static void main(String[] args) {
         String s = "catsanddogcatsanddogcatsanddog";
         Set<String> set = new HashSet<>();
         String[] setArr = {"cat", "cats", "and", "sand", "dog"};
-        for (String t : setArr) {
-            set.add(t);
-        }
+        Collections.addAll(set, setArr);
         Solution solution = new Solution();
-        List<String> res = solution.wordBreak(s, set);
+        boolean res = solution.wordBreak(s, set);
         System.out.println(res);
     }
 }
